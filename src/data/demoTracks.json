@@ -1,0 +1,234 @@
+{
+  "tracks": [
+    {
+      "id": "espresso",
+      "title": "Espresso",
+      "album": "Short n' Sweet",
+      "year": "2024",
+      "side": "Side A",
+      "trackNo": 1,
+      "bpm": 118,
+      "key": "C Major",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4b/f1/95/4bf19543-9dd1-e6e7-7ee3-5d5138cbe22f/mzaf_16388487739502936932.plus.aac.p.m4a",
+      "cassetteTheme": "espresso",
+      "colorGradient": "from-amber-700 via-amber-900 to-stone-950",
+      "accentColor": "#f59e0b",
+      "vibe": "Catchy disco-funk with breezy sun-drenched vocal chops",
+      "lyrics": [
+        { "time": 0.0, "line": "Now he's thinkin' 'bout me every night, oh" },
+        { "time": 3.2, "line": "Is it that sweet? I guess so" },
+        { "time": 6.4, "line": "Say you can't sleep, baby, I know" },
+        { "time": 9.6, "line": "That's that me, espresso ☕" },
+        { "time": 12.8, "line": "Move it up, down, left, right, oh" },
+        { "time": 16.0, "line": "Switch it up like Nintendo 🎮" },
+        { "time": 19.2, "line": "Say you can't sleep, baby, I know" },
+        { "time": 22.4, "line": "That's that me, espresso! ✨" }
+      ],
+      "melody": [
+        { "note": 523.25, "time": 0.0, "dur": 0.5, "inst": "rhodes" },
+        { "note": 659.25, "time": 0.5, "dur": 0.5, "inst": "rhodes" },
+        { "note": 783.99, "time": 1.0, "dur": 0.75, "inst": "rhodes" },
+        { "note": 659.25, "time": 1.75, "dur": 0.5, "inst": "rhodes" },
+        { "note": 587.33, "time": 2.5, "dur": 0.5, "inst": "bass" },
+        { "note": 523.25, "time": 3.2, "dur": 0.8, "inst": "rhodes" },
+        { "note": 659.25, "time": 4.0, "dur": 0.5, "inst": "rhodes" },
+        { "note": 783.99, "time": 4.75, "dur": 0.5, "inst": "synth" },
+        { "note": 880.00, "time": 5.5, "dur": 1.0, "inst": "synth" },
+        { "note": 523.25, "time": 6.8, "dur": 0.5, "inst": "bass" },
+        { "note": 659.25, "time": 7.5, "dur": 0.5, "inst": "rhodes" },
+        { "note": 783.99, "time": 8.2, "dur": 0.6, "inst": "rhodes" },
+        { "note": 1046.50, "time": 9.6, "dur": 1.2, "inst": "lead" }
+      ]
+    },
+    {
+      "id": "please-please-please",
+      "title": "Please Please Please",
+      "album": "Short n' Sweet",
+      "year": "2024",
+      "side": "Side A",
+      "trackNo": 2,
+      "bpm": 133,
+      "key": "A Major",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/58/b7/c1/58b7c197-d86b-a25b-240e-7c51480f28a8/mzaf_12948624124976722286.plus.aac.p.m4a",
+      "cassetteTheme": "skycream",
+      "colorGradient": "from-sky-600 via-blue-900 to-slate-950",
+      "accentColor": "#38bdf8",
+      "vibe": "80s synth-pop plea loaded with witty self-awareness",
+      "lyrics": [
+        { "time": 0.0, "line": "Please, please, please" },
+        { "time": 2.8, "line": "Don't prove 'em right" },
+        { "time": 5.6, "line": "And please, please, please" },
+        { "time": 8.4, "line": "Don't bring me to tears when I just did my makeup so nice 💄" },
+        { "time": 13.2, "line": "Heartbreak is one thing, my ego's another" },
+        { "time": 17.0, "line": "I beg you, don't embarrass me, motherf***er! 💋" }
+      ],
+      "melody": [
+        { "note": 440.00, "time": 0.0, "dur": 0.8, "inst": "synth" },
+        { "note": 554.37, "time": 0.8, "dur": 0.8, "inst": "synth" },
+        { "note": 659.25, "time": 1.6, "dur": 1.0, "inst": "synth" },
+        { "note": 440.00, "time": 2.8, "dur": 0.6, "inst": "rhodes" },
+        { "note": 493.88, "time": 3.4, "dur": 0.6, "inst": "rhodes" },
+        { "note": 554.37, "time": 4.0, "dur": 1.2, "inst": "rhodes" }
+      ]
+    },
+    {
+      "id": "taste",
+      "title": "Taste",
+      "album": "Short n' Sweet",
+      "year": "2024",
+      "side": "Side A",
+      "trackNo": 3,
+      "bpm": 112,
+      "key": "G Major",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/64/59/a7/6459a7f3-dca0-ce0f-b2a8-144795e69e46/mzaf_18439294520935515569.plus.aac.p.m4a",
+      "cassetteTheme": "blush",
+      "colorGradient": "from-rose-600 via-pink-900 to-neutral-950",
+      "accentColor": "#f43f5e",
+      "vibe": "Sardonic, infectious pop-rock guitar banger",
+      "lyrics": [
+        { "time": 0.0, "line": "Oh, I leave quite an impression" },
+        { "time": 3.5, "line": "Five feet to be exact" },
+        { "time": 6.8, "line": "You're wonderin' why half his clothes went missin'" },
+        { "time": 10.2, "line": "My body's where they're at" },
+        { "time": 13.5, "line": "Now I hear you're back together and if that's true..." },
+        { "time": 17.5, "line": "You'll just have to taste me when he's kissin' you! 🍒" }
+      ],
+      "melody": [
+        { "note": 392.00, "time": 0.0, "dur": 0.4, "inst": "bass" },
+        { "note": 493.88, "time": 0.5, "dur": 0.4, "inst": "synth" },
+        { "note": 587.33, "time": 1.0, "dur": 0.8, "inst": "lead" }
+      ]
+    },
+    {
+      "id": "mans-best-friend",
+      "title": "Man's Best Friend",
+      "album": "Man's Best Friend",
+      "year": "2025",
+      "side": "Side B",
+      "trackNo": 4,
+      "bpm": 116,
+      "key": "E Major",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/a5/d8/78/a5d8787f-94ad-9819-335b-1798ce04a3ad/mzaf_12891969698715874246.plus.aac.p.m4a",
+      "cassetteTheme": "butter",
+      "colorGradient": "from-amber-500 via-yellow-700 to-stone-950",
+      "accentColor": "#fcd34d",
+      "vibe": "Loyalty, sharp tongue, and golden acoustic charm",
+      "lyrics": [
+        { "time": 0.0, "line": "They say that diamonds are a girl's best friend 💎" },
+        { "time": 3.2, "line": "Until you show up at my front door again" },
+        { "time": 6.5, "line": "Loyal like a puppy, never biting back" },
+        { "time": 10.0, "line": "Got you trained on every single heart attack! 🐾" },
+        { "time": 14.2, "line": "You know I'm man's best friend..." },
+        { "time": 18.0, "line": "Till I walk away and never call again. 💋" }
+      ],
+      "melody": [
+        { "note": 329.63, "time": 0.0, "dur": 0.6, "inst": "rhodes" },
+        { "note": 415.30, "time": 0.6, "dur": 0.6, "inst": "rhodes" },
+        { "note": 493.88, "time": 1.2, "dur": 1.0, "inst": "lead" },
+        { "note": 659.25, "time": 2.5, "dur": 1.2, "inst": "lead" }
+      ]
+    },
+    {
+      "id": "bed-chem",
+      "title": "Bed Chem",
+      "album": "Short n' Sweet",
+      "year": "2024",
+      "side": "Side B",
+      "trackNo": 5,
+      "bpm": 92,
+      "key": "Eb Major",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/a5/d8/78/a5d8787f-94ad-9819-335b-1798ce04a3ad/mzaf_12891969698715874246.plus.aac.p.m4a",
+      "cassetteTheme": "blush",
+      "colorGradient": "from-purple-800 via-pink-950 to-stone-950",
+      "accentColor": "#e879f9",
+      "vibe": "Silky smooth R&B groove with cheeky lyrical flirtation",
+      "lyrics": [
+        { "time": 0.0, "line": "Who's the cute boy with the white jacket and the thick accent? 🇬🇧" },
+        { "time": 5.0, "line": "Like boy, come over, let's talk about it" },
+        { "time": 9.2, "line": "I bet we got some really good bed chem 💫" },
+        { "time": 13.5, "line": "How you look in my sheets... just imagine." }
+      ],
+      "melody": [
+        { "note": 311.13, "time": 0.0, "dur": 0.8, "inst": "rhodes" },
+        { "note": 392.00, "time": 0.8, "dur": 0.8, "inst": "rhodes" },
+        { "note": 466.16, "time": 1.6, "dur": 1.0, "inst": "synth" }
+      ]
+    },
+    {
+      "id": "juno",
+      "title": "Juno",
+      "album": "Short n' Sweet",
+      "year": "2024",
+      "side": "Side B",
+      "trackNo": 6,
+      "bpm": 120,
+      "key": "D Major",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/55/65/59/55655977-9df0-e3eb-bc5f-8469cb6e60b1/mzaf_4725350323326127110.plus.aac.p.m4a",
+      "cassetteTheme": "blush",
+      "colorGradient": "from-pink-600 via-rose-900 to-stone-950",
+      "accentColor": "#f43f5e",
+      "vibe": "Upbeat flirtatious dance pop with cheeky humor",
+      "lyrics": [
+        { "time": 0.0, "line": "One of me is cute, but two though?" },
+        { "time": 3.5, "line": "Give you that whole world, yeah you know" },
+        { "time": 7.0, "line": "If you love me right, then who knows?" },
+        { "time": 10.5, "line": "Might make me Juno! 🍼✨" }
+      ],
+      "melody": [
+        { "note": 293.66, "time": 0.0, "dur": 0.6, "inst": "synth" },
+        { "note": 369.99, "time": 0.6, "dur": 0.6, "inst": "synth" },
+        { "note": 440.00, "time": 1.2, "dur": 1.0, "inst": "lead" }
+      ]
+    },
+    {
+      "id": "feather",
+      "title": "Feather",
+      "album": "emails i can't send fwd:",
+      "year": "2023",
+      "side": "Side B",
+      "trackNo": 7,
+      "bpm": 122,
+      "key": "F# Minor",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/d5/d3/18/d5d3184b-0125-baae-51fa-71a3512e0325/mzaf_13508496411516086883.plus.aac.p.m4a",
+      "cassetteTheme": "skycream",
+      "colorGradient": "from-teal-700 via-sky-900 to-stone-950",
+      "accentColor": "#2dd4bf",
+      "vibe": "Effortless buoyant breakup dance anthem",
+      "lyrics": [
+        { "time": 0.0, "line": "I got you blocked after that last text" },
+        { "time": 3.4, "line": "I feel so much lighter like a feather with you off my mind 🪶" },
+        { "time": 8.2, "line": "Floatin' on by, goodbye!" },
+        { "time": 11.5, "line": "It feels so good not caring where you're at tonight ✨" }
+      ],
+      "melody": [
+        { "note": 369.99, "time": 0.0, "dur": 0.5, "inst": "bass" },
+        { "note": 440.00, "time": 0.6, "dur": 0.5, "inst": "bass" }
+      ]
+    },
+    {
+      "id": "nonsense",
+      "title": "Nonsense",
+      "album": "emails i can't send",
+      "year": "2022",
+      "side": "Side B",
+      "trackNo": 8,
+      "bpm": 96,
+      "key": "Bb Major",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/1e/8c/d7/1e8cd7b2-8408-724a-b5ea-dfcf6cf2b64c/mzaf_17409247657989392261.plus.aac.p.m4a",
+      "cassetteTheme": "blush",
+      "colorGradient": "from-rose-500 via-red-900 to-neutral-950",
+      "accentColor": "#fb7185",
+      "vibe": "Sassy R&B pop with iconic improvised tour outros",
+      "lyrics": [
+        { "time": 0.0, "line": "I'll be talking nonsense, I'll be saying things" },
+        { "time": 3.8, "line": "Think I'm feeling things, boy you got me singin'" },
+        { "time": 7.5, "line": "I'm in this city, looking way too pretty 💅" },
+        { "time": 11.2, "line": "That's that me, espresso! ☕💋" }
+      ],
+      "melody": [
+        { "note": 466.16, "time": 0.0, "dur": 0.6, "inst": "synth" },
+        { "note": 587.33, "time": 0.6, "dur": 0.8, "inst": "lead" }
+      ]
+    }
+  ]
+}

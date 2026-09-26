@@ -1,0 +1,176 @@
+{
+  "iconicOutros": [
+    {
+      "id": "la",
+      "city": "Los Angeles",
+      "date": "Greek Theatre",
+      "verses": [
+        "I'm in LA, you know I love the valley",
+        "He said that he could meet me in the alley",
+        "I told him that his dick is really rally... wait, that doesn't rhyme",
+        "Los Angeles, you're looking like a snack though!"
+      ],
+      "spicyMeter": 85,
+      "audioBpm": 96
+    },
+    {
+      "id": "london",
+      "city": "London",
+      "date": "Eventim Apollo",
+      "verses": [
+        "I'm in London, boy you got a sexy accent",
+        "I think you left a really good impression",
+        "Don't worry babe, I won't cause a depression",
+        "Unless you don't give me all your affection!"
+      ],
+      "spicyMeter": 90,
+      "audioBpm": 96
+    },
+    {
+      "id": "nyc",
+      "city": "New York City",
+      "date": "Madison Square Garden",
+      "verses": [
+        "New York City, concrete jungle, kiss me quicker",
+        "You're hotter than a double shot of liquor",
+        "I think my heart is beating even thicker",
+        "Let's make tonight a classic movie flick-er!"
+      ],
+      "spicyMeter": 92,
+      "audioBpm": 96
+    },
+    {
+      "id": "coachella",
+      "city": "Coachella (Indio, CA)",
+      "date": "Main Stage Weekend 1",
+      "verses": [
+        "I'm at Coachella, singing in the desert",
+        "He bought me coffee, said I look like dessert",
+        "I like the way you look without a t-shirt",
+        "I think I'm gonna flirt until my knees hurt!"
+      ],
+      "spicyMeter": 95,
+      "audioBpm": 96
+    },
+    {
+      "id": "sydney",
+      "city": "Sydney",
+      "date": "Accor Stadium",
+      "verses": [
+        "Down in Sydney, everything is upside down",
+        "He told me I'm the sweetest girl in town",
+        "He wants to put a diamond on my crown",
+        "I'm swimming in his eyes, I'm gonna drown!"
+      ],
+      "spicyMeter": 88,
+      "audioBpm": 96
+    },
+    {
+      "id": "paris",
+      "city": "Paris",
+      "date": "Accor Arena",
+      "verses": [
+        "Bonjour Paris, we're eating all the croissants",
+        "He whispered in my ear what he really wants",
+        "I know I got that French girl nonchalance",
+        "Let's take a little trip to Saint-Tropez at once!"
+      ],
+      "spicyMeter": 89,
+      "audioBpm": 96
+    },
+    {
+      "id": "tokyo",
+      "city": "Tokyo",
+      "date": "Ariake Arena",
+      "verses": [
+        "Konnichiwa Tokyo, you look kawaii",
+        "He took me for some ramen and some sake",
+        "He told me that my love is like wasabi",
+        "It hits you fast, you can't even say sorry!"
+      ],
+      "spicyMeter": 91,
+      "audioBpm": 96
+    },
+    {
+      "id": "chicago",
+      "city": "Chicago",
+      "date": "United Center",
+      "verses": [
+        "The Windy City blew my skirt right up",
+        "He poured a little espresso in my cup",
+        "He asked me if I'm ready to link up",
+        "Chicago, won't you tell me what is up?!"
+      ],
+      "spicyMeter": 94,
+      "audioBpm": 96
+    }
+  ],
+  "generatorWordBank": {
+    "openers": [
+      "I'm in {CITY}, looking way too pretty",
+      "Touchdown in {CITY}, feeling super witty",
+      "Hey {CITY}, let's get down to the nitty-gritty",
+      "Look at me in {CITY}, sipping on a beverage",
+      "Hello {CITY}, got you wrapped around my finger",
+      "Back in {CITY}, making all the boys nervous"
+    ],
+    "rhymeCategories": {
+      "city": {
+        "label": "City & Vibes",
+        "rhymes": [
+          ["I know that everyone here loves a little witty", "He said my lipstick looks damn pretty", "This town is iconic, holy city", "Good luck getting over me, what a pity!"],
+          ["We're running late, we're causing quite a commotion", "He said my love is deeper than the ocean", "I put on some scented vanilla lotion", "I got that boy in total slow-motion!"]
+        ]
+      },
+      "espresso": {
+        "label": "Espresso & Caffeinated",
+        "rhymes": [
+          ["I ordered double espresso with the foam", "He said he'll never ever leave me alone", "I'm calling all the shots upon my phone", "I'm queen of the castle sitting on the throne!"],
+          ["I drink my coffee dark and extra steamy", "He looks at me and suddenly gets dreamy", "He asked if my intention is to tease, see", "I said baby, looking good is breezy!"]
+        ]
+      },
+      "shortnsweet": {
+        "label": "Short n' Sweet & Cheeky",
+        "rhymes": [
+          ["I'm five feet tall but got a giant stature", "I took one look at him and made a capture", "He said he loves my unapologetic laughter", "And now we're living happily ever after!"],
+          ["I wear the platform boots to make me taller", "He's making six figures, he's a baller", "He wants to be my number one caller", "I said don't worry babe, I'm not a staller!"]
+        ]
+      },
+      "spicy": {
+        "label": "Extra Spicy & Sassy",
+        "rhymes": [
+          ["I told him don't embarrass me, please please please", "He fell right down onto both of his knees", "I told him baby wrap me in the summer breeze", "And do whatever thing that you please!"],
+          ["I left my lipstick marks upon his collar", "He tried to keep it cool and didn't holler", "I made him bet his very bottom dollar", "That I'm the sweetest cherry you could swallow!"]
+        ]
+      }
+    },
+    "punchlines": [
+      "{CITY}, you know you love me! 💋",
+      "That's that me, espresso! ☕✨",
+      "Please please please don't prove me right! 💖",
+      "Now scream so loud they hear us in outer space! 🚀",
+      "Short n' Sweet, but never bittersweet! 🍒",
+      "Goodnight {CITY}, sweet dreams! 💅"
+    ]
+  },
+  "syllableTemplates": [
+    {
+      "name": "Classic 4-Bar Bounce (AABB)",
+      "structure": [
+        "Line 1: Setup introducing location / mood",
+        "Line 2: Rhyme with Line 1 + witty detail",
+        "Line 3: Twist punchline setting up final rhyme",
+        "Line 4: Knockout rhyme + iconic mic drop!"
+      ]
+    },
+    {
+      "name": "Monorhyme Showstopper (AAAA)",
+      "structure": [
+        "Line 1: High energy city callout",
+        "Line 2: Same end-rhyme escalation",
+        "Line 3: Spicy confession",
+        "Line 4: Outrageous crowd-hyping finale"
+      ]
+    }
+  ]
+}

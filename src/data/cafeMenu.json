@@ -1,0 +1,205 @@
+{
+  "drinks": [
+    {
+      "id": "espresso-double",
+      "name": "Short n' Sweet Espresso Double Shot",
+      "price": "$5.25",
+      "tagline": "Say you can't sleep, baby I know. That's that me, espresso.",
+      "category": "Hot Coffee",
+      "album": "Short n' Sweet",
+      "pairedTrack": "Espresso",
+      "sweetness": "High",
+      "caffeine": "100% Caffeinated",
+      "flavorNotes": ["Rich Dark Cocoa", "Brown Sugar Foam", "Vanilla Velvet"],
+      "color": "#451a03",
+      "bgColor": "from-amber-900 to-amber-950",
+      "quote": "Now he's thinkin' 'bout me every night, oh."
+    },
+    {
+      "id": "mans-best-friend-latte",
+      "name": "Man's Best Friend Honeycomb Latte",
+      "price": "$6.50",
+      "tagline": "Loyal like a puppy, but trained on every single heart attack.",
+      "category": "Specialty Latte",
+      "album": "Man's Best Friend",
+      "pairedTrack": "Man's Best Friend",
+      "sweetness": "Golden Honey Sweet",
+      "caffeine": "High Energy",
+      "flavorNotes": ["Golden Honeycomb Crunch", "Velvet Espresso", "Steamed Oat Cream"],
+      "color": "#d97706",
+      "bgColor": "from-amber-600 to-amber-950",
+      "quote": "They say that diamonds are a girl's best friend... till I walk away."
+    },
+    {
+      "id": "please-cold-brew",
+      "name": "Please Please Please Vanilla Cold Brew",
+      "price": "$6.50",
+      "tagline": "Heartbreak is one thing, my ego's another. Begging with sweet cream foam.",
+      "category": "Cold Brew",
+      "album": "Short n' Sweet",
+      "pairedTrack": "Please Please Please",
+      "sweetness": "Medium-High",
+      "caffeine": "Smooth Buzz",
+      "flavorNotes": ["24hr Steeped Roast", "Madagascar Vanilla", "Silk Cold Foam"],
+      "color": "#0284c7",
+      "bgColor": "from-sky-700 to-sky-950",
+      "quote": "Whatever devil's inside you, don't let out to wake me."
+    },
+    {
+      "id": "taste-blood-orange",
+      "name": "Taste Blood Orange Sparkling Americano",
+      "price": "$6.00",
+      "tagline": "You'll just have to taste me when he's kissing you.",
+      "category": "Specialty Iced",
+      "album": "Short n' Sweet",
+      "pairedTrack": "Taste",
+      "sweetness": "Tart & Zesty",
+      "caffeine": "Medium",
+      "flavorNotes": ["Blood Orange Puree", "Espresso Float", "Sparkling Soda Tonic"],
+      "color": "#e11d48",
+      "bgColor": "from-rose-600 to-rose-950",
+      "quote": "I heard you're back together and if that's true, you'll just have to taste me."
+    },
+    {
+      "id": "feather-matcha-cloud",
+      "name": "Feather Light Matcha Cloud Latte",
+      "price": "$6.75",
+      "tagline": "I feel so much lighter like a feather with you off my mind.",
+      "category": "Tea & Cloud",
+      "album": "emails i can't send fwd:",
+      "pairedTrack": "Feather",
+      "sweetness": "Subtle Sweet",
+      "caffeine": "Zen Focus",
+      "flavorNotes": ["Ceremonial Uji Matcha", "Oat Milk Cloud", "Rose Blossom Dust"],
+      "color": "#15803d",
+      "bgColor": "from-emerald-700 to-emerald-950",
+      "quote": "I got you blocked on everything, now that's a feather."
+    },
+    {
+      "id": "bed-chem-mocha",
+      "name": "Bed Chem Spiced Cinnamon Velvet Mocha",
+      "price": "$6.25",
+      "tagline": "Where did you get those cute blue eyes and that heavy accent?",
+      "category": "Hot Specialty",
+      "album": "Short n' Sweet",
+      "pairedTrack": "Bed Chem",
+      "sweetness": "Rich & Decadent",
+      "caffeine": "Warm Cozy",
+      "flavorNotes": ["Belgian Dark Chocolate", "Ceylon Cinnamon", "Steamed Whole Milk"],
+      "color": "#7c2d12",
+      "bgColor": "from-amber-800 to-stone-900",
+      "quote": "Who's the cute boy with the white jacket and the thick accent?"
+    },
+    {
+      "id": "juno-peach-spritz",
+      "name": "Juno Honeymoon Peach & Rosé Spritzer",
+      "price": "$5.75",
+      "tagline": "One of me is cute, but two though? Have you make me Juno.",
+      "category": "Sparkling Mocktail",
+      "album": "Short n' Sweet",
+      "pairedTrack": "Juno",
+      "sweetness": "Bubbly Sweet",
+      "caffeine": "Zero Caffeine",
+      "flavorNotes": ["Georgia White Peach", "Sparkling Rosé Essence", "Edible Gold Shimmer"],
+      "color": "#f43f5e",
+      "bgColor": "from-pink-500 to-pink-900",
+      "quote": "If you love me right then who knows, might make me Juno!"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "q1",
+      "question": "What's your current romantic state of mind?",
+      "options": [
+        { "text": "Loyal to a fault, but dangerous if provoked", "drinkId": "mans-best-friend-latte" },
+        { "text": "Caffeinated, busy, and staying rent-free in their head", "drinkId": "espresso-double" },
+        { "text": "Terrified they're gonna embarrass me in front of everyone", "drinkId": "please-cold-brew" },
+        { "text": "Petty, glamorous, and lingering like fine perfume", "drinkId": "taste-blood-orange" },
+        { "text": "Blocked them everywhere and floating on cloud nine", "drinkId": "feather-matcha-cloud" },
+        { "text": "Obsessing over a boy with an accent and cute hair", "drinkId": "bed-chem-mocha" }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": "Pick your signature concert outfit aesthetic:",
+      "options": [
+        { "text": "Gold honeycomb sequin crop & vintage leather jacket", "drinkId": "mans-best-friend-latte" },
+        { "text": "Sparkling chocolate brown satin mini & knee-high platform boots", "drinkId": "espresso-double" },
+        { "text": "Baby-blue lace babydoll corset with ribbons", "drinkId": "please-cold-brew" },
+        { "text": "Cherry red leather mini dress & bold lipstick", "drinkId": "taste-blood-orange" },
+        { "text": "Pastel lavender & feather boa angel chic", "drinkId": "feather-matcha-cloud" },
+        { "text": "Vintage tailored blazer & oversized sunglasses", "drinkId": "bed-chem-mocha" }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": "What is your go-to texting style?",
+      "options": [
+        { "text": "A sweet good-morning text followed by complete silence", "drinkId": "mans-best-friend-latte" },
+        { "text": "Left on delivered for 3 hours, then a single flawless meme", "drinkId": "espresso-double" },
+        { "text": "\"Don't make me look stupid please\" with 3 heart emojis", "drinkId": "please-cold-brew" },
+        { "text": "Viewing their story from a burner account and grinning", "drinkId": "taste-blood-orange" },
+        { "text": "Do Not Disturb turned ON permanently. Peace restored.", "drinkId": "feather-matcha-cloud" },
+        { "text": "Typing a 5-paragraph analysis in notes app, unsent.", "drinkId": "bed-chem-mocha" }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": "What's your ideal Friday night energy?",
+      "options": [
+        { "text": "Hanging out with my closest crew singing along to acoustic anthems", "drinkId": "mans-best-friend-latte" },
+        { "text": "Singing karaoke at the top of our lungs until 3 AM", "drinkId": "juno-peach-spritz" },
+        { "text": "Double espresso martini & running the dancefloor", "drinkId": "espresso-double" },
+        { "text": "Late night drive listening to 80s synth-pop on repeat", "drinkId": "please-cold-brew" },
+        { "text": "Cozy couch, iced matcha, baking cookies with friends", "drinkId": "feather-matcha-cloud" },
+        { "text": "Romantic candlelit dinner with intense eye contact", "drinkId": "bed-chem-mocha" }
+      ]
+    }
+  ],
+  "customBuilder": {
+    "bases": [
+      { "id": "espresso", "name": "Dark Roast Espresso", "price": 3.50, "icon": "☕" },
+      { "id": "coldbrew", "name": "Smooth Cold Brew", "price": 3.75, "icon": "🧊" },
+      { "id": "matcha", "name": "Ceremonial Uji Matcha", "price": 4.00, "icon": "🍵" },
+      { "id": "chai", "name": "Spiced Vanilla Chai", "price": 3.85, "icon": "🫖" },
+      { "id": "soda", "name": "Sparkling Mineral Tonic", "price": 3.00, "icon": "🫧" }
+    ],
+    "milks": [
+      { "id": "oat", "name": "Creamy Oat Milk", "price": 0.80 },
+      { "id": "almond", "name": "Silk Almond Milk", "price": 0.75 },
+      { "id": "whole", "name": "Steamed Whole Milk", "price": 0.50 },
+      { "id": "coldfoam", "name": "Pink Sweet Cream Foam", "price": 1.25 },
+      { "id": "none", "name": "Straight Up (Black/Clear)", "price": 0.00 }
+    ],
+    "sweetness": [
+      { "id": "short", "name": "Short (25% Sweetness)" },
+      { "id": "sweet", "name": "Sweet (50% Standard)" },
+      { "id": "extra", "name": "Extra Sweet (100% Sugary Pop)" },
+      { "id": "espresso", "name": "Espresso-Sweet (Brown Sugar)" }
+    ],
+    "toppings": [
+      { "id": "glitter", "name": "Edible Shimmer Dust", "price": 0.75, "tag": "✨ Sparkly" },
+      { "id": "honeycomb", "name": "Golden Honeycomb Crunch", "price": 0.85, "tag": "🐾 Loyal" },
+      { "id": "cinnamon", "name": "Cinnamon Kiss Powder", "price": 0.50, "tag": "💋 Spicy" },
+      { "id": "whip", "name": "Extra Cloud Whip", "price": 0.85, "tag": "☁️ Fluffy" },
+      { "id": "cherry", "name": "Maraschino Cherry on Top", "price": 0.50, "tag": "🍒 Sweet" },
+      { "id": "beans", "name": "Chocolate Covered Beans", "price": 0.75, "tag": "🍫 Crunch" }
+    ],
+    "syrups": [
+      { "id": "vanilla", "name": "Madagascar Vanilla Bean" },
+      { "id": "honey", "name": "Wild Blossom Honey Syrup" },
+      { "id": "raspberry", "name": "Sweet Tart Raspberry" },
+      { "id": "hazelnut", "name": "Toasted Hazelnut" },
+      { "id": "caramel", "name": "Salted Butter Caramel" },
+      { "id": "lavender", "name": "French Lavender Syrup" }
+    ]
+  },
+  "baristaNotes": [
+    "Drink this and remember you're the prize.",
+    "Don't text him back, drink your coffee instead.",
+    "Heartbreak is one thing, bad coffee is another.",
+    "Loyal like a puppy, but never settling for less.",
+    "You look gorgeous today, now conquer the world.",
+    "Caffeinated enough to outsmart all your exes."
+  ]
+}

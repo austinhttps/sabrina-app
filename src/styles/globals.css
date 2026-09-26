@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: #130b08;
+  color: #fff1f5;
+  overflow-x: hidden;
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(244, 63, 94, 0.12) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, rgba(56, 189, 248, 0.1) 0px, transparent 50%),
+    radial-gradient(at 50% 100%, rgba(217, 119, 6, 0.1) 0px, transparent 50%);
+  background-attachment: fixed;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1f130d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8b614d;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff6294;
+}
+
+/* Retro CRT scanline effect for Webmail & Vintage display */
+.crt-scanlines {
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%, 
+    rgba(0, 0, 0, 0.25) 50%
+  ), linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 0.03),
+    rgba(0, 255, 0, 0.01),
+    rgba(0, 0, 255, 0.03)
+  );
+  background-size: 100% 4px, 6px 100%;
+  pointer-events: none;
+}
+
+/* Dotted diner paper texture */
+.diner-pattern {
+  background-color: #fffaf5;
+  background-image: radial-gradient(#e7d8cb 1.5px, transparent 1.5px);
+  background-size: 16px 16px;
+}
+
+/* Shimmer animation utility */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.shimmer-text {
+  background: linear-gradient(90deg, #ffccd9 0%, #ffffff 50%, #ff9ebb 100%);
+  background-size: 200% auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: shimmer 3s linear infinite;
+}
+
+/* Vinyl grooves */
+.vinyl-grooves {
+  background: repeating-radial-gradient(
+    circle at center,
+    #18181b 0px,
+    #18181b 2px,
+    #27272a 3px,
+    #18181b 4px
+  );
+}
+
+/* Lipstick kiss hover effect */
+.kiss-stamp {
+  filter: drop-shadow(0 2px 4px rgba(225, 29, 72, 0.3));
+}
