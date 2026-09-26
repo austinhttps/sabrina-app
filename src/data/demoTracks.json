@@ -1,12 +1,354 @@
 {
   "tracks": [
     {
+      "id": "manchild",
+      "title": "Manchild",
+      "album": "Man's Best Friend",
+      "year": "2025",
+      "side": "Side A",
+      "trackNo": 1,
+      "bpm": 124,
+      "key": "G Major",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4b/f1/95/4bf19543-9dd1-e6e7-7ee3-5d5138cbe22f/mzaf_16388487739502936932.plus.aac.p.m4a",
+      "cassetteTheme": "butter",
+      "colorGradient": "from-amber-500 via-yellow-600 to-stone-950",
+      "accentColor": "#fcd34d",
+      "vibe": "Sardonic pop groove dissecting boyish excuses with razor wit",
+      "lyrics": [
+        { "time": 0.0, "line": "You're throwing tantrums in the passenger seat 🚗" },
+        { "time": 3.2, "line": "Acting twenty-five like you're twenty-three" },
+        { "time": 6.5, "line": "Wanted a lover, got a boy to feed" },
+        { "time": 10.0, "line": "Little manchild, get off your knees! 🍼" },
+        { "time": 14.0, "line": "I'm not your mother, baby, I'm the prize." },
+        { "time": 18.2, "line": "Dry those crocodile manchild eyes! 💋" }
+      ],
+      "melody": [
+        { "note": 392.00, "time": 0.0, "dur": 0.5, "inst": "rhodes" },
+        { "note": 493.88, "time": 0.5, "dur": 0.5, "inst": "rhodes" },
+        { "note": 587.33, "time": 1.0, "dur": 0.8, "inst": "lead" },
+        { "note": 493.88, "time": 2.0, "dur": 0.6, "inst": "synth" },
+        { "note": 659.25, "time": 3.0, "dur": 1.2, "inst": "lead" }
+      ]
+    },
+    {
+      "id": "tears",
+      "title": "Tears",
+      "album": "Man's Best Friend",
+      "year": "2025",
+      "side": "Side A",
+      "trackNo": 2,
+      "bpm": 108,
+      "key": "F Major",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/d5/d3/18/d5d3184b-0125-baae-51fa-71a3512e0325/mzaf_13508496411516086883.plus.aac.p.m4a",
+      "cassetteTheme": "skycream",
+      "colorGradient": "from-blue-700 via-indigo-900 to-stone-950",
+      "accentColor": "#60a5fa",
+      "vibe": "Melodic, cathartic ballad turning heartbreak into diamond water",
+      "lyrics": [
+        { "time": 0.0, "line": "I saved all the tears I cried over you 💧" },
+        { "time": 3.4, "line": "Bottled them up till the sky turned blue" },
+        { "time": 7.0, "line": "Now I'm washing my hands of the things you do" },
+        { "time": 11.2, "line": "Look at my tears... they look good on you! ✨" }
+      ],
+      "melody": [
+        { "note": 349.23, "time": 0.0, "dur": 0.6, "inst": "rhodes" },
+        { "note": 440.00, "time": 0.6, "dur": 0.6, "inst": "rhodes" },
+        { "note": 523.25, "time": 1.2, "dur": 1.0, "inst": "lead" }
+      ]
+    },
+    {
+      "id": "my-man-on-willpower",
+      "title": "My Man on Willpower",
+      "album": "Man's Best Friend",
+      "year": "2025",
+      "side": "Side A",
+      "trackNo": 3,
+      "bpm": 116,
+      "key": "Bb Major",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/a5/d8/78/a5d8787f-94ad-9819-335b-1798ce04a3ad/mzaf_12891969698715874246.plus.aac.p.m4a",
+      "cassetteTheme": "blush",
+      "colorGradient": "from-purple-700 via-pink-900 to-stone-950",
+      "accentColor": "#e879f9",
+      "vibe": "Slinky R&B pop testing the limits of temptation and loyalty",
+      "lyrics": [
+        { "time": 0.0, "line": "Put my man on willpower, watch him sweat ⏳" },
+        { "time": 3.8, "line": "Testing how much devotion I can get" },
+        { "time": 7.5, "line": "Told him look but don't touch just yet" },
+        { "time": 11.0, "line": "Best believe he won't ever forget! 💋" }
+      ],
+      "melody": [
+        { "note": 466.16, "time": 0.0, "dur": 0.8, "inst": "rhodes" },
+        { "note": 587.33, "time": 0.8, "dur": 0.8, "inst": "synth" },
+        { "note": 698.46, "time": 1.6, "dur": 1.2, "inst": "lead" }
+      ]
+    },
+    {
+      "id": "sugar-talking",
+      "title": "Sugar Talking",
+      "album": "Man's Best Friend",
+      "year": "2025",
+      "side": "Side A",
+      "trackNo": 4,
+      "bpm": 128,
+      "key": "D Major",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/55/65/59/55655977-9df0-e3eb-bc5f-8469cb6e60b1/mzaf_4725350323326127110.plus.aac.p.m4a",
+      "cassetteTheme": "butter",
+      "colorGradient": "from-rose-500 via-amber-600 to-stone-950",
+      "accentColor": "#fbbf24",
+      "vibe": "Candy-coated pop confectionery filled with sharp tongue roasts",
+      "lyrics": [
+        { "time": 0.0, "line": "Sweet like honey when you need a favor 🍯" },
+        { "time": 3.6, "line": "Saying words you don't even believe in" },
+        { "time": 7.2, "line": "That's just your sugar talking, babe" },
+        { "time": 10.8, "line": "And I'm already out the door leaving! 💅" }
+      ],
+      "melody": [
+        { "note": 293.66, "time": 0.0, "dur": 0.6, "inst": "synth" },
+        { "note": 369.99, "time": 0.6, "dur": 0.6, "inst": "synth" },
+        { "note": 440.00, "time": 1.2, "dur": 1.0, "inst": "lead" }
+      ]
+    },
+    {
+      "id": "we-almost-broke-up",
+      "title": "We Almost Broke Up Again Last Night",
+      "album": "Man's Best Friend",
+      "year": "2025",
+      "side": "Side A",
+      "trackNo": 5,
+      "bpm": 102,
+      "key": "E Major",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/1e/8c/d7/1e8cd7b2-8408-724a-b5ea-dfcf6cf2b64c/mzaf_17409247657989392261.plus.aac.p.m4a",
+      "cassetteTheme": "blush",
+      "colorGradient": "from-red-600 via-pink-900 to-stone-950",
+      "accentColor": "#f43f5e",
+      "vibe": "Dramatic late-night emotional thriller with unforgettable chorus",
+      "lyrics": [
+        { "time": 0.0, "line": "Keys on the counter, jacket on the floor" },
+        { "time": 3.8, "line": "Standing ten inches away from the front door" },
+        { "time": 7.8, "line": "We almost broke up again last night..." },
+        { "time": 11.5, "line": "Then you pulled me in and held me tight! 💔✨" }
+      ],
+      "melody": [
+        { "note": 329.63, "time": 0.0, "dur": 0.6, "inst": "rhodes" },
+        { "note": 415.30, "time": 0.6, "dur": 0.6, "inst": "rhodes" },
+        { "note": 493.88, "time": 1.2, "dur": 1.0, "inst": "lead" }
+      ]
+    },
+    {
+      "id": "nobodys-son",
+      "title": "Nobody's Son",
+      "album": "Man's Best Friend",
+      "year": "2025",
+      "side": "Side A",
+      "trackNo": 6,
+      "bpm": 110,
+      "key": "A Minor",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/58/b7/c1/58b7c197-d86b-a25b-240e-7c51480f28a8/mzaf_12948624124976722286.plus.aac.p.m4a",
+      "cassetteTheme": "espresso",
+      "colorGradient": "from-stone-700 via-stone-900 to-black",
+      "accentColor": "#a8a29e",
+      "vibe": "Moody cinematic acoustic-pop confronting emotional detachment",
+      "lyrics": [
+        { "time": 0.0, "line": "Raised by wolves or raised by ghosts 🐺" },
+        { "time": 3.6, "line": "Hurt the ones you say you love the most" },
+        { "time": 7.2, "line": "Walking through the world like nobody's son" },
+        { "time": 11.0, "line": "Leaving before the morning comes! 🌫️" }
+      ],
+      "melody": [
+        { "note": 220.00, "time": 0.0, "dur": 0.6, "inst": "bass" },
+        { "note": 329.63, "time": 0.6, "dur": 0.6, "inst": "rhodes" },
+        { "note": 440.00, "time": 1.2, "dur": 1.0, "inst": "lead" }
+      ]
+    },
+    {
+      "id": "never-getting-laid",
+      "title": "Never Getting Laid",
+      "album": "Man's Best Friend",
+      "year": "2025",
+      "side": "Side B",
+      "trackNo": 7,
+      "bpm": 126,
+      "key": "C Major",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/64/59/a7/6459a7f3-dca0-ce0f-b2a8-144795e69e46/mzaf_18439294520935515569.plus.aac.p.m4a",
+      "cassetteTheme": "blush",
+      "colorGradient": "from-pink-600 via-rose-900 to-neutral-950",
+      "accentColor": "#fb7185",
+      "vibe": "Hilarious pop punk energy roasting bad pickup lines and bad behavior",
+      "lyrics": [
+        { "time": 0.0, "line": "Did you really think that line was gonna work? 🙄" },
+        { "time": 3.4, "line": "Talking loud in the club like an absolute jerk" },
+        { "time": 7.0, "line": "With that attitude and that haircut upgrade..." },
+        { "time": 10.5, "line": "Baby, you're never getting laid! 🚫👋" }
+      ],
+      "melody": [
+        { "note": 261.63, "time": 0.0, "dur": 0.4, "inst": "bass" },
+        { "note": 329.63, "time": 0.4, "dur": 0.4, "inst": "synth" },
+        { "note": 392.00, "time": 0.8, "dur": 0.8, "inst": "lead" }
+      ]
+    },
+    {
+      "id": "when-did-you-get-hot",
+      "title": "When Did You Get Hot?",
+      "album": "Man's Best Friend",
+      "year": "2025",
+      "side": "Side B",
+      "trackNo": 8,
+      "bpm": 115,
+      "key": "C# Minor",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/a5/d8/78/a5d8787f-94ad-9819-335b-1798ce04a3ad/mzaf_12891969698715874246.plus.aac.p.m4a",
+      "cassetteTheme": "blush",
+      "colorGradient": "from-rose-500 via-purple-900 to-stone-950",
+      "accentColor": "#f43f5e",
+      "vibe": "Flirtatious reaction to a high school classmate's jaw-dropping glow-up",
+      "lyrics": [
+        { "time": 0.0, "line": "Wait, take off those sunglasses right now 👀" },
+        { "time": 3.8, "line": "You used to play trombone and look like a clown" },
+        { "time": 7.8, "line": "Now you walk in the room and turn heads around..." },
+        { "time": 11.5, "line": "When did you get hot?! Tell me how! 🔥" }
+      ],
+      "melody": [
+        { "note": 277.18, "time": 0.0, "dur": 0.6, "inst": "bass" },
+        { "note": 369.99, "time": 0.6, "dur": 0.6, "inst": "synth" },
+        { "note": 440.00, "time": 1.2, "dur": 1.0, "inst": "lead" }
+      ]
+    },
+    {
+      "id": "go-go-juice",
+      "title": "Go Go Juice",
+      "album": "Man's Best Friend",
+      "year": "2025",
+      "side": "Side B",
+      "trackNo": 9,
+      "bpm": 130,
+      "key": "A Major",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4b/f1/95/4bf19543-9dd1-e6e7-7ee3-5d5138cbe22f/mzaf_16388487739502936932.plus.aac.p.m4a",
+      "cassetteTheme": "espresso",
+      "colorGradient": "from-amber-600 via-orange-800 to-stone-950",
+      "accentColor": "#f97316",
+      "vibe": "Hyper-caffeinated disco party explosion",
+      "lyrics": [
+        { "time": 0.0, "line": "Give me that go go juice, I'm ready to roll ⚡" },
+        { "time": 3.5, "line": "Taking over the city out of control" },
+        { "time": 7.0, "line": "Don't check on your ex, baby check on your glow" },
+        { "time": 10.5, "line": "That's that go go juice, let's go! 🥤✨" }
+      ],
+      "melody": [
+        { "note": 440.00, "time": 0.0, "dur": 0.6, "inst": "synth" },
+        { "note": 554.37, "time": 0.6, "dur": 0.6, "inst": "synth" },
+        { "note": 659.25, "time": 1.2, "dur": 1.0, "inst": "lead" }
+      ]
+    },
+    {
+      "id": "dont-worry-make-you-worry",
+      "title": "Don't Worry I'll Make You Worry",
+      "album": "Man's Best Friend",
+      "year": "2025",
+      "side": "Side B",
+      "trackNo": 10,
+      "bpm": 120,
+      "key": "F# Minor",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/64/59/a7/6459a7f3-dca0-ce0f-b2a8-144795e69e46/mzaf_18439294520935515569.plus.aac.p.m4a",
+      "cassetteTheme": "blush",
+      "colorGradient": "from-violet-800 via-fuchsia-900 to-stone-950",
+      "accentColor": "#d946ef",
+      "vibe": "Playfully menace-laced synth pop keeping them on the edge of their seat",
+      "lyrics": [
+        { "time": 0.0, "line": "Said you're unbothered, cool as ice 🧊" },
+        { "time": 3.6, "line": "Better roll again, roll the dice" },
+        { "time": 7.2, "line": "Don't worry... I'll make you worry" },
+        { "time": 10.8, "line": "When I look at you twice! 👁️✨" }
+      ],
+      "melody": [
+        { "note": 369.99, "time": 0.0, "dur": 0.6, "inst": "synth" },
+        { "note": 440.00, "time": 0.6, "dur": 0.6, "inst": "synth" },
+        { "note": 554.37, "time": 1.2, "dur": 1.0, "inst": "lead" }
+      ]
+    },
+    {
+      "id": "house-tour",
+      "title": "House Tour",
+      "album": "Man's Best Friend",
+      "year": "2025",
+      "side": "Side B",
+      "trackNo": 11,
+      "bpm": 118,
+      "key": "Ab Major",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/58/b7/c1/58b7c197-d86b-a25b-240e-7c51480f28a8/mzaf_12948624124976722286.plus.aac.p.m4a",
+      "cassetteTheme": "skycream",
+      "colorGradient": "from-cyan-700 via-sky-900 to-stone-950",
+      "accentColor": "#38bdf8",
+      "vibe": "Witty architecture walkthrough of a relationship's empty rooms and promises",
+      "lyrics": [
+        { "time": 0.0, "line": "Here is the kitchen where we never cooked 🍳" },
+        { "time": 3.8, "line": "Here is the bookshelf with all the books you took" },
+        { "time": 7.8, "line": "Welcome to the house tour of what we used to be" },
+        { "time": 11.6, "line": "Notice how the best part was me! 🏡💅" }
+      ],
+      "melody": [
+        { "note": 415.30, "time": 0.0, "dur": 0.6, "inst": "rhodes" },
+        { "note": 523.25, "time": 0.6, "dur": 0.6, "inst": "rhodes" },
+        { "note": 622.25, "time": 1.2, "dur": 1.0, "inst": "lead" }
+      ]
+    },
+    {
+      "id": "goodbye",
+      "title": "Goodbye",
+      "album": "Man's Best Friend",
+      "year": "2025",
+      "side": "Side B",
+      "trackNo": 12,
+      "bpm": 96,
+      "key": "Eb Major",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/d5/d3/18/d5d3184b-0125-baae-51fa-71a3512e0325/mzaf_13508496411516086883.plus.aac.p.m4a",
+      "cassetteTheme": "butter",
+      "colorGradient": "from-amber-600 via-stone-800 to-black",
+      "accentColor": "#fbbf24",
+      "vibe": "Heartfelt, grand acoustic orchestral farewell closing the chapter with grace",
+      "lyrics": [
+        { "time": 0.0, "line": "No hard feelings, no regret" },
+        { "time": 3.8, "line": "Just a song that you won't forget" },
+        { "time": 7.6, "line": "Saying goodbye with a smile on my face" },
+        { "time": 11.5, "line": "Leaving without a trace... goodbye! 🕊️✨" }
+      ],
+      "melody": [
+        { "note": 311.13, "time": 0.0, "dur": 0.8, "inst": "rhodes" },
+        { "note": 392.00, "time": 0.8, "dur": 0.8, "inst": "rhodes" },
+        { "note": 466.16, "time": 1.6, "dur": 1.2, "inst": "lead" }
+      ]
+    },
+    {
+      "id": "such-a-funny-way",
+      "title": "Such a Funny Way (Bonus Track / Deluxe Edition)",
+      "album": "Man's Best Friend",
+      "year": "2025",
+      "side": "Side B",
+      "trackNo": 13,
+      "bpm": 122,
+      "key": "D Major",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/55/65/59/55655977-9df0-e3eb-bc5f-8469cb6e60b1/mzaf_4725350323326127110.plus.aac.p.m4a",
+      "cassetteTheme": "blush",
+      "colorGradient": "from-pink-600 via-amber-700 to-stone-950",
+      "accentColor": "#f43f5e",
+      "vibe": "Deluxe acoustic bonus track about life's ironic twists of fate",
+      "lyrics": [
+        { "time": 0.0, "line": "Isn't it funny how the tables turn? 🔄" },
+        { "time": 3.6, "line": "All those bridges that you watched us burn" },
+        { "time": 7.2, "line": "Now you're swimming back to yesterday" },
+        { "time": 10.8, "line": "Life has such a funny way! 💫" }
+      ],
+      "melody": [
+        { "note": 293.66, "time": 0.0, "dur": 0.6, "inst": "rhodes" },
+        { "note": 369.99, "time": 0.6, "dur": 0.6, "inst": "synth" },
+        { "note": 440.00, "time": 1.2, "dur": 1.0, "inst": "lead" }
+      ]
+    },
+    {
       "id": "espresso",
       "title": "Espresso",
       "album": "Short n' Sweet",
       "year": "2024",
-      "side": "Side A",
-      "trackNo": 1,
+      "side": "Bonus Hits",
+      "trackNo": 14,
       "bpm": 118,
       "key": "C Major",
       "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4b/f1/95/4bf19543-9dd1-e6e7-7ee3-5d5138cbe22f/mzaf_16388487739502936932.plus.aac.p.m4a",
@@ -28,15 +370,6 @@
         { "note": 523.25, "time": 0.0, "dur": 0.5, "inst": "rhodes" },
         { "note": 659.25, "time": 0.5, "dur": 0.5, "inst": "rhodes" },
         { "note": 783.99, "time": 1.0, "dur": 0.75, "inst": "rhodes" },
-        { "note": 659.25, "time": 1.75, "dur": 0.5, "inst": "rhodes" },
-        { "note": 587.33, "time": 2.5, "dur": 0.5, "inst": "bass" },
-        { "note": 523.25, "time": 3.2, "dur": 0.8, "inst": "rhodes" },
-        { "note": 659.25, "time": 4.0, "dur": 0.5, "inst": "rhodes" },
-        { "note": 783.99, "time": 4.75, "dur": 0.5, "inst": "synth" },
-        { "note": 880.00, "time": 5.5, "dur": 1.0, "inst": "synth" },
-        { "note": 523.25, "time": 6.8, "dur": 0.5, "inst": "bass" },
-        { "note": 659.25, "time": 7.5, "dur": 0.5, "inst": "rhodes" },
-        { "note": 783.99, "time": 8.2, "dur": 0.6, "inst": "rhodes" },
         { "note": 1046.50, "time": 9.6, "dur": 1.2, "inst": "lead" }
       ]
     },
@@ -45,8 +378,8 @@
       "title": "Please Please Please",
       "album": "Short n' Sweet",
       "year": "2024",
-      "side": "Side A",
-      "trackNo": 2,
+      "side": "Bonus Hits",
+      "trackNo": 15,
       "bpm": 133,
       "key": "A Major",
       "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/58/b7/c1/58b7c197-d86b-a25b-240e-7c51480f28a8/mzaf_12948624124976722286.plus.aac.p.m4a",
@@ -65,10 +398,7 @@
       "melody": [
         { "note": 440.00, "time": 0.0, "dur": 0.8, "inst": "synth" },
         { "note": 554.37, "time": 0.8, "dur": 0.8, "inst": "synth" },
-        { "note": 659.25, "time": 1.6, "dur": 1.0, "inst": "synth" },
-        { "note": 440.00, "time": 2.8, "dur": 0.6, "inst": "rhodes" },
-        { "note": 493.88, "time": 3.4, "dur": 0.6, "inst": "rhodes" },
-        { "note": 554.37, "time": 4.0, "dur": 1.2, "inst": "rhodes" }
+        { "note": 659.25, "time": 1.6, "dur": 1.0, "inst": "synth" }
       ]
     },
     {
@@ -76,8 +406,8 @@
       "title": "Taste",
       "album": "Short n' Sweet",
       "year": "2024",
-      "side": "Side A",
-      "trackNo": 3,
+      "side": "Bonus Hits",
+      "trackNo": 16,
       "bpm": 112,
       "key": "G Major",
       "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/64/59/a7/6459a7f3-dca0-ce0f-b2a8-144795e69e46/mzaf_18439294520935515569.plus.aac.p.m4a",
@@ -97,137 +427,6 @@
         { "note": 392.00, "time": 0.0, "dur": 0.4, "inst": "bass" },
         { "note": 493.88, "time": 0.5, "dur": 0.4, "inst": "synth" },
         { "note": 587.33, "time": 1.0, "dur": 0.8, "inst": "lead" }
-      ]
-    },
-    {
-      "id": "mans-best-friend",
-      "title": "Man's Best Friend",
-      "album": "Man's Best Friend",
-      "year": "2025",
-      "side": "Side B",
-      "trackNo": 4,
-      "bpm": 116,
-      "key": "E Major",
-      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/a5/d8/78/a5d8787f-94ad-9819-335b-1798ce04a3ad/mzaf_12891969698715874246.plus.aac.p.m4a",
-      "cassetteTheme": "butter",
-      "colorGradient": "from-amber-500 via-yellow-700 to-stone-950",
-      "accentColor": "#fcd34d",
-      "vibe": "Loyalty, sharp tongue, and golden acoustic charm",
-      "lyrics": [
-        { "time": 0.0, "line": "They say that diamonds are a girl's best friend 💎" },
-        { "time": 3.2, "line": "Until you show up at my front door again" },
-        { "time": 6.5, "line": "Loyal like a puppy, never biting back" },
-        { "time": 10.0, "line": "Got you trained on every single heart attack! 🐾" },
-        { "time": 14.2, "line": "You know I'm man's best friend..." },
-        { "time": 18.0, "line": "Till I walk away and never call again. 💋" }
-      ],
-      "melody": [
-        { "note": 329.63, "time": 0.0, "dur": 0.6, "inst": "rhodes" },
-        { "note": 415.30, "time": 0.6, "dur": 0.6, "inst": "rhodes" },
-        { "note": 493.88, "time": 1.2, "dur": 1.0, "inst": "lead" },
-        { "note": 659.25, "time": 2.5, "dur": 1.2, "inst": "lead" }
-      ]
-    },
-    {
-      "id": "bed-chem",
-      "title": "Bed Chem",
-      "album": "Short n' Sweet",
-      "year": "2024",
-      "side": "Side B",
-      "trackNo": 5,
-      "bpm": 92,
-      "key": "Eb Major",
-      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/a5/d8/78/a5d8787f-94ad-9819-335b-1798ce04a3ad/mzaf_12891969698715874246.plus.aac.p.m4a",
-      "cassetteTheme": "blush",
-      "colorGradient": "from-purple-800 via-pink-950 to-stone-950",
-      "accentColor": "#e879f9",
-      "vibe": "Silky smooth R&B groove with cheeky lyrical flirtation",
-      "lyrics": [
-        { "time": 0.0, "line": "Who's the cute boy with the white jacket and the thick accent? 🇬🇧" },
-        { "time": 5.0, "line": "Like boy, come over, let's talk about it" },
-        { "time": 9.2, "line": "I bet we got some really good bed chem 💫" },
-        { "time": 13.5, "line": "How you look in my sheets... just imagine." }
-      ],
-      "melody": [
-        { "note": 311.13, "time": 0.0, "dur": 0.8, "inst": "rhodes" },
-        { "note": 392.00, "time": 0.8, "dur": 0.8, "inst": "rhodes" },
-        { "note": 466.16, "time": 1.6, "dur": 1.0, "inst": "synth" }
-      ]
-    },
-    {
-      "id": "juno",
-      "title": "Juno",
-      "album": "Short n' Sweet",
-      "year": "2024",
-      "side": "Side B",
-      "trackNo": 6,
-      "bpm": 120,
-      "key": "D Major",
-      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/55/65/59/55655977-9df0-e3eb-bc5f-8469cb6e60b1/mzaf_4725350323326127110.plus.aac.p.m4a",
-      "cassetteTheme": "blush",
-      "colorGradient": "from-pink-600 via-rose-900 to-stone-950",
-      "accentColor": "#f43f5e",
-      "vibe": "Upbeat flirtatious dance pop with cheeky humor",
-      "lyrics": [
-        { "time": 0.0, "line": "One of me is cute, but two though?" },
-        { "time": 3.5, "line": "Give you that whole world, yeah you know" },
-        { "time": 7.0, "line": "If you love me right, then who knows?" },
-        { "time": 10.5, "line": "Might make me Juno! 🍼✨" }
-      ],
-      "melody": [
-        { "note": 293.66, "time": 0.0, "dur": 0.6, "inst": "synth" },
-        { "note": 369.99, "time": 0.6, "dur": 0.6, "inst": "synth" },
-        { "note": 440.00, "time": 1.2, "dur": 1.0, "inst": "lead" }
-      ]
-    },
-    {
-      "id": "feather",
-      "title": "Feather",
-      "album": "emails i can't send fwd:",
-      "year": "2023",
-      "side": "Side B",
-      "trackNo": 7,
-      "bpm": 122,
-      "key": "F# Minor",
-      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/d5/d3/18/d5d3184b-0125-baae-51fa-71a3512e0325/mzaf_13508496411516086883.plus.aac.p.m4a",
-      "cassetteTheme": "skycream",
-      "colorGradient": "from-teal-700 via-sky-900 to-stone-950",
-      "accentColor": "#2dd4bf",
-      "vibe": "Effortless buoyant breakup dance anthem",
-      "lyrics": [
-        { "time": 0.0, "line": "I got you blocked after that last text" },
-        { "time": 3.4, "line": "I feel so much lighter like a feather with you off my mind 🪶" },
-        { "time": 8.2, "line": "Floatin' on by, goodbye!" },
-        { "time": 11.5, "line": "It feels so good not caring where you're at tonight ✨" }
-      ],
-      "melody": [
-        { "note": 369.99, "time": 0.0, "dur": 0.5, "inst": "bass" },
-        { "note": 440.00, "time": 0.6, "dur": 0.5, "inst": "bass" }
-      ]
-    },
-    {
-      "id": "nonsense",
-      "title": "Nonsense",
-      "album": "emails i can't send",
-      "year": "2022",
-      "side": "Side B",
-      "trackNo": 8,
-      "bpm": 96,
-      "key": "Bb Major",
-      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/1e/8c/d7/1e8cd7b2-8408-724a-b5ea-dfcf6cf2b64c/mzaf_17409247657989392261.plus.aac.p.m4a",
-      "cassetteTheme": "blush",
-      "colorGradient": "from-rose-500 via-red-900 to-neutral-950",
-      "accentColor": "#fb7185",
-      "vibe": "Sassy R&B pop with iconic improvised tour outros",
-      "lyrics": [
-        { "time": 0.0, "line": "I'll be talking nonsense, I'll be saying things" },
-        { "time": 3.8, "line": "Think I'm feeling things, boy you got me singin'" },
-        { "time": 7.5, "line": "I'm in this city, looking way too pretty 💅" },
-        { "time": 11.2, "line": "That's that me, espresso! ☕💋" }
-      ],
-      "melody": [
-        { "note": 466.16, "time": 0.0, "dur": 0.6, "inst": "synth" },
-        { "note": 587.33, "time": 0.6, "dur": 0.8, "inst": "lead" }
       ]
     }
   ]

@@ -121,20 +121,36 @@ const DEFAULT_EMAILS: EmailItem[] = [
     id: 'e6',
     folder: 'drafts',
     from: 'Sabrina <sabrina@shortnsweet.fm>',
-    to: 'my.inner.peace@cloudnine.com',
-    subject: 'Good Graces (Rulebook for myself)',
-    date: 'Jul 19, 2024',
-    time: '01:15 AM',
-    body: "Rule 1: Don't let anyone waste your makeup time. Rule 2: [REDACTED: If he embarrasses you in front of the internet, he is immediately exiled]. Rule 3: Always leave them wanting one more espresso shot. You're the prize, baby.",
+    to: 'manchild.ex@tantrum.org',
+    subject: 'Manchild (Demo Lyrics & Unsent Voicemail Transcript)',
+    date: 'Jan 15, 2025',
+    time: '03:12 AM',
+    body: "You're throwing tantrums in the passenger seat acting twenty-five like you're twenty-three. [REDACTED: I came looking for an equal partner, not a grown toddler to babysit]. I'm not your mother, baby, I'm the prize. Dry those crocodile tears before you embarrass yourself even more.",
     isRedacted: true,
     redactedParts: [
-      "If he embarrasses you in front of the internet, he is immediately exiled"
+      "I came looking for an equal partner, not a grown toddler to babysit"
     ],
-    avatar: '💄',
-    tag: 'Self Rule'
+    avatar: '🍼',
+    tag: "Man's Best Friend"
   },
   {
     id: 'e7',
+    folder: 'drafts',
+    from: 'Sabrina <sabrina@shortnsweet.fm>',
+    to: 'realestate.memories@emptyrooms.com',
+    subject: 'House Tour (Draft of Unsent Memo)',
+    date: 'Feb 02, 2025',
+    time: '01:45 AM',
+    body: "Welcome to the house tour of what we used to be. Here is the kitchen where we never cooked, and here is the bookshelf where you left all your half-read excuses. [REDACTED: Notice how the best part of every room was always me].",
+    isRedacted: true,
+    redactedParts: [
+      "Notice how the best part of every room was always me"
+    ],
+    avatar: '🏡',
+    tag: "Man's Best Friend"
+  },
+  {
+    id: 'e8',
     folder: 'trash',
     from: 'Ex-Boyfriend <toxic@heartbreakhotel.com>',
     to: 'Sabrina <sabrina@shortnsweet.fm>',

@@ -25,7 +25,19 @@ interface HubProps {
 }
 
 const ALL_FORTUNES = [
-  "\"They say that diamonds are a girl's best friend... till I walk away and never call again.\" 🐾 (Man's Best Friend)",
+  "\"Wanted a lover, got a boy to feed. Little manchild, get off your knees!\" 🍼 (Manchild - Man's Best Friend)",
+  "\"I saved all the tears I cried over you... Look at my tears, they look good on you!\" 💧 (Tears - Man's Best Friend)",
+  "\"Put my man on willpower, watch him sweat. Testing how much devotion I can get!\" ⏳ (My Man on Willpower - Man's Best Friend)",
+  "\"Sweet like honey when you need a favor... That's just your sugar talking, babe!\" 🍯 (Sugar Talking - Man's Best Friend)",
+  "\"We almost broke up again last night... then you pulled me in and held me tight.\" 💔 (We Almost Broke Up Again Last Night - Man's Best Friend)",
+  "\"Walking through the world like nobody's son, leaving before the morning comes.\" 🐺 (Nobody's Son - Man's Best Friend)",
+  "\"With that attitude and that haircut upgrade, baby, you're never getting laid!\" 🚫 (Never Getting Laid - Man's Best Friend)",
+  "\"You used to play trombone and look like a clown... when did you get hot?!\" 🔥 (When Did You Get Hot? - Man's Best Friend)",
+  "\"Give me that go go juice, I'm ready to roll. Don't check on your ex, baby check on your glow!\" ⚡ (Go Go Juice - Man's Best Friend)",
+  "\"Said you're unbothered, cool as ice... don't worry, I'll make you worry!\" 👁️ (Don't Worry I'll Make You Worry - Man's Best Friend)",
+  "\"Welcome to the house tour of what we used to be. Notice how the best part was me!\" 🏡 (House Tour - Man's Best Friend)",
+  "\"Saying goodbye with a smile on my face, leaving without a trace... goodbye!\" 🕊️ (Goodbye - Man's Best Friend)",
+  "\"All those bridges that you watched us burn... life has such a funny way!\" 💫 (Such a Funny Way - Man's Best Friend)",
   "\"Say you can't sleep, baby I know. That's that me, espresso.\" ☕ (Espresso)",
   "\"Heartbreak is one thing, my ego's another. I beg you, don't embarrass me, motherf***er!\" 💄 (Please Please Please)",
   "\"Now I hear you're back together and if that's true... you'll just have to taste me when he's kissin' you!\" 🍒 (Taste)",
@@ -35,14 +47,10 @@ const ALL_FORTUNES = [
   "\"I'm five feet tall but got a giant stature.\" 💅 (Nonsense)",
   "\"You were cruel in private, but I kept your vintage sweater anyway.\" 💌 (emails i can't send)",
   "\"Good graces rule number one: Don't text him back, drink your espresso instead.\" ☕ (Good Graces)",
-  "\"I'm loyal like a puppy, but you're trained on every single heart attack.\" 🐾 (Man's Best Friend)",
-  "\"Don't prove 'em right, please please please!\" 💖 (Please Please Please)",
   "\"Tell me why my lipstick looks so good on your white collar?\" 💋 (Nonsense Outro)",
   "\"Give me six seconds and a microphone, and I'll make a whole arena blush.\" 🎤 (Short n' Sweet Live)",
   "\"I got you blocked on everything, now that's a feather.\" 🪶 (Feather)",
-  "\"Some people are like cold decaf. You're a double espresso with extra glitter.\" ✨ (Diner Wisdom)",
-  "\"I leave quite an impression... five feet to be exact.\" 🍒 (Taste)",
-  "\"My love is sweet tooth candy, but don't bite more than you can chew.\" 🍫 (Sweet Tooth)"
+  "\"My love is sweet tooth candy, but don't bite more than you can chew.\" 🍫 (Sweet Tooth - OG Lemon Bar)"
 ];
 
 export const Hub: React.FC<HubProps> = ({ onNavigate }) => {

@@ -40,21 +40,21 @@ interface Perfume {
 const PERFUMES: Perfume[] = [
   {
     id: 'sweet-tooth-original',
-    name: 'Sweet Tooth',
-    subtitle: 'The Original Eau de Parfum',
-    family: 'Sweet Gourmand',
+    name: 'Sweet Tooth (The OG Lemon Bar)',
+    subtitle: 'The Original & Most Famous Eau de Parfum',
+    family: 'Lemon Bar Gourmand',
     bottleColor: '#f472b6',
     bottleGradient: 'from-pink-300 via-pink-400 to-rose-400',
     wrapperColor: 'from-amber-200 via-yellow-100 to-amber-300',
     accentColor: '#ec4899',
-    tagline: 'Pure indulgence in the iconic candy-pink chocolate bar bottle.',
-    topNotes: ['Candied Ginger', 'Chocolate Marshmallow', 'Sparkling Bergamot'],
-    heartNotes: ['Jasmine Petals', 'Coconut Milk', 'Madagascar Vanilla'],
-    baseNotes: ['Chantilly Cream', 'Sugared Musk', 'Cashmere Wood'],
-    vibe: 'Cozy, playful, sweet, and comforting like warm vanilla marshmallows.',
+    tagline: 'The iconic OG Lemon Bar scent—sparkling candied lemon zest, buttery shortbread crust & marshmallow cream.',
+    topNotes: ['Candied Lemon Zest', 'Lemon Bar Shortbread Crust', 'Sugared Ginger', 'Sparkling Bergamot'],
+    heartNotes: ['Chocolate Marshmallow', 'Coconut Milk', 'Madagascar Vanilla Orchid', 'Jasmine Petals'],
+    baseNotes: ['Vanilla Chantilly Cream', 'Golden Honeycomb', 'Fluffy Sugared Musk', 'Cashmere Wood'],
+    vibe: 'Sabrina\'s most famous signature fragrance: luscious lemon bar dessert with whipped marshmallow and sweet buttery crunch.',
     price: '$49.99 (75ml EDP)',
-    rating: '4.9 ★ (12,400+ reviews)',
-    awards: 'Fragrance Foundation Finalist'
+    rating: '5.0 ★ (25,000+ reviews)',
+    awards: 'Fragrance Foundation Award & Global Fan Favorite'
   },
   {
     id: 'caramel-dream',
@@ -480,7 +480,7 @@ export const PerfumeLounge: React.FC<PerfumeLoungeProps> = ({ onBack }) => {
 
               <div className="space-y-3">
                 {quizStep === 0 && [
-                  { label: "Sugared vanilla marshmallow & fluffy whipped cream", id: 'sweet-tooth-original' },
+                  { label: "OG Lemon bar shortbread crust, candied lemon zest & fluffy marshmallow", id: 'sweet-tooth-original' },
                   { label: "Caramelized amber, dark chocolate & warm sandalwood", id: 'caramel-dream' },
                   { label: "Glazed cherries, red poppy & ruby plum nectar", id: 'cherry-baby' },
                   { label: "Freshly brewed dark espresso with brown sugar foam", id: 'me-espresso' }
@@ -512,10 +512,10 @@ export const PerfumeLounge: React.FC<PerfumeLoungeProps> = ({ onBack }) => {
                 ))}
 
                 {quizStep === 2 && [
-                  { label: "\"Please Please Please\" / \"Feather\"", id: 'sweet-tooth-original' },
-                  { label: "\"Bed Chem\" / \"Man's Best Friend\"", id: 'caramel-dream' },
-                  { label: "\"Taste\" / \"Nonsense\"", id: 'cherry-baby' },
-                  { label: "\"Espresso\" / \"Good Graces\"", id: 'me-espresso' }
+                  { label: "\"Manchild\" / \"Please Please Please\" / \"Feather\"", id: 'sweet-tooth-original' },
+                  { label: "\"Bed Chem\" / \"My Man on Willpower\" / \"Sugar Talking\"", id: 'caramel-dream' },
+                  { label: "\"Taste\" / \"When Did You Get Hot?\" / \"Nonsense\"", id: 'cherry-baby' },
+                  { label: "\"Espresso\" / \"Go Go Juice\" / \"Good Graces\"", id: 'me-espresso' }
                 ].map((opt, i) => (
                   <button
                     key={i}
