@@ -33,8 +33,15 @@ export const CassettePlayer: React.FC<CassettePlayerProps> = ({ onBack }) => {
   const [lofiEnabled, setLofiEnabled] = useState(false);
   const [volume, setVolume] = useState(0.85);
 
+  const [selectedAlbumFilter, setSelectedAlbumFilter] = useState<'all' | "Short n' Sweet" | "Man's Best Friend">('all');
+
   const visualizerCanvasRef = useRef<HTMLCanvasElement | null>(null);
   const animationFrameRef = useRef<number | null>(null);
+
+  const filteredTracks = tracks.filter(t => {
+    if (selectedAlbumFilter === 'all') return true;
+    return t.album === selectedAlbumFilter;
+  });
 
   const currentTrack = tracks[currentTrackIndex] || tracks[0];
 
@@ -423,50 +430,85 @@ export const CassettePlayer: React.FC<CassettePlayerProps> = ({ onBack }) => {
           </div>
 
           {/* Cassette Tape Tracklist */}
-          <div className="rounded-3xl bg-[#1b0d07] border border-espresso-800 p-6 shadow-xl space-y-3">
-            <div className="flex items-center justify-between mb-2">
-              <h4 className="text-sm font-serif font-bold text-white">Full Song Tracklist ({tracks.length})</h4>
-              <span className="text-xs font-mono text-amber-300 font-bold">Click to Play 🎧</span>
+          <div className="rounded-3xl bg-[#1b0d07] border border-espresso-800 p-6 shadow-xl space-y-4">
+            <div className="flex flex-wrap items-center justify-between gap-2">
+              <h4 className="text-sm font-serif font-bold text-white">Music Vault ({tracks.length} Songs)</h4>
+              <span className="text-xs font-mono text-amber-300 font-bold">Real Streaming 🎧</span>
             </div>
 
-            <div className="space-y-2 max-h-[280px] overflow-y-auto pr-1">
-              {tracks.map((track, idx) => (
-                <div
-                  key={track.id}
-                  onClick={() => handleSelectTrack(idx)}
-                  className={`p-3 rounded-xl border cursor-pointer transition-all flex items-center justify-between ${
-                    currentTrackIndex === idx
-                      ? 'bg-pink-600/20 border-pink-500 text-white shadow-md'
-                      : 'bg-espresso-950/80 border-espresso-800/80 text-espresso-300 hover:border-espresso-700'
-                  }`}
-                >
-                  <div className="flex items-center gap-3">
-                    <span className="text-xs font-mono font-bold text-pink-400">
-                      0{track.trackNo}
-                    </span>
-                    <div>
-                      <div className="text-xs font-serif font-bold text-white flex items-center gap-1.5">
-                        {track.title}
-                        {track.album === "Man's Best Friend" && (
-                          <span className="text-[9px] font-mono px-1.5 py-0.2 rounded bg-amber-500/20 text-amber-300 border border-amber-500/30">
-                            MBF
-                          </span>
-                        )}
+            {/* Album Filter Tabs */}
+            <div className="flex flex-wrap gap-1.5 p-1 bg-espresso-950 rounded-xl border border-espresso-800/80 text-[11px] font-mono">
+              <button
+                onClick={() => setSelectedAlbumFilter('all')}
+                className={`px-2.5 py-1 rounded-lg transition-all ${
+                  selectedAlbumFilter === 'all' ? 'bg-pink-600 text-white font-bold' : 'text-espresso-300 hover:text-white'
+                }`}
+              >
+                All ({tracks.length})
+              </button>
+              <button
+                onClick={() => setSelectedAlbumFilter("Short n' Sweet")}
+                className={`px-2.5 py-1 rounded-lg transition-all ${
+                  selectedAlbumFilter === "Short n' Sweet" ? 'bg-pink-600 text-white font-bold' : 'text-espresso-300 hover:text-white'
+                }`}
+              >
+                Short n' Sweet (12)
+              </button>
+              <button
+                onClick={() => setSelectedAlbumFilter("Man's Best Friend")}
+                className={`px-2.5 py-1 rounded-lg transition-all ${
+                  selectedAlbumFilter === "Man's Best Friend" ? 'bg-pink-600 text-white font-bold' : 'text-espresso-300 hover:text-white'
+                }`}
+              >
+                Man's Best Friend (13)
+              </button>
+            </div>
+
+            <div className="space-y-2 max-h-[300px] overflow-y-auto pr-1">
+              {filteredTracks.map((track) => {
+                const originalIndex = tracks.findIndex(t => t.id === track.id);
+                return (
+                  <div
+                    key={track.id}
+                    onClick={() => handleSelectTrack(originalIndex)}
+                    className={`p-3 rounded-xl border cursor-pointer transition-all flex items-center justify-between ${
+                      currentTrackIndex === originalIndex
+                        ? 'bg-pink-600/20 border-pink-500 text-white shadow-md'
+                        : 'bg-espresso-950/80 border-espresso-800/80 text-espresso-300 hover:border-espresso-700'
+                    }`}
+                  >
+                    <div className="flex items-center gap-3">
+                      <span className="text-xs font-mono font-bold text-pink-400">
+                        0{track.trackNo}
+                      </span>
+                      <div>
+                        <div className="text-xs font-serif font-bold text-white flex items-center gap-1.5">
+                          {track.title}
+                          {track.album === "Man's Best Friend" ? (
+                            <span className="text-[9px] font-mono px-1.5 py-0.2 rounded bg-amber-500/20 text-amber-300 border border-amber-500/30">
+                              MBF
+                            </span>
+                          ) : track.album === "Short n' Sweet" ? (
+                            <span className="text-[9px] font-mono px-1.5 py-0.2 rounded bg-pink-500/20 text-pink-300 border border-pink-500/30">
+                              SnS
+                            </span>
+                          ) : null}
+                        </div>
+                        <div className="text-[10px] font-mono text-espresso-400">{track.album} • {track.side}</div>
                       </div>
-                      <div className="text-[10px] font-mono text-espresso-400">{track.album} • {track.side}</div>
+                    </div>
+
+                    <div className="flex items-center gap-2">
+                      {currentTrackIndex === originalIndex && isPlaying && (
+                        <span className="text-xs text-pink-400 animate-bounce">▶</span>
+                      )}
+                      <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-espresso-900 text-espresso-300">
+                        {track.bpm} BPM
+                      </span>
                     </div>
                   </div>
-
-                  <div className="flex items-center gap-2">
-                    {currentTrackIndex === idx && isPlaying && (
-                      <span className="text-xs text-pink-400 animate-bounce">▶</span>
-                    )}
-                    <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-espresso-900 text-espresso-300">
-                      {track.bpm} BPM
-                    </span>
-                  </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
           </div>
         </div>
