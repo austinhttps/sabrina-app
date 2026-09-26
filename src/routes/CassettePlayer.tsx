@@ -38,38 +38,55 @@ export const CassettePlayer: React.FC<CassettePlayerProps> = ({ onBack }) => {
 
   const currentTrack = tracks[currentTrackIndex] || tracks[0];
 
-  // Draw Audio Visualizer on Canvas
+  // Subscribe to audio engine state
+  useEffect(() => {
+    const unsubscribe = audioSynth.subscribe((state) => {
+      setIsPlaying(state.isPlaying);
+      setPlaybackTime(state.currentTime);
+      if (state.duration && !isNaN(state.duration)) {
+        setTrackDuration(state.duration);
+      }
+      setVolume(state.volume);
+
+      if (state.trackId) {
+        const foundIdx = tracks.findIndex(t => t.id === state.trackId);
+        if (foundIdx !== -1 && foundIdx !== currentTrackIndex) {
+          setCurrentTrackIndex(foundIdx);
+        }
+      }
+    });
+
+    return () => unsubscribe();
+  }, [tracks, currentTrackIndex]);
+
+  // Animated spectrum visualizer
   useEffect(() => {
     const canvas = visualizerCanvasRef.current;
     if (!canvas) return;
     const ctx = canvas.getContext('2d');
     if (!ctx) return;
 
-    const analyser = audioSynth.getAnalyser();
-    const bufferLength = analyser ? analyser.frequencyBinCount : 32;
-    const dataArray = new Uint8Array(bufferLength);
+    let bars = 24;
+    let values = new Array(bars).fill(10);
 
     const renderFrame = () => {
       animationFrameRef.current = requestAnimationFrame(renderFrame);
 
-      if (analyser && isPlaying) {
-        analyser.getByteFrequencyData(dataArray);
-      } else {
-        for (let i = 0; i < bufferLength; i++) {
-          dataArray[i] = Math.max(0, dataArray[i] - 4);
-        }
-      }
-
       ctx.clearRect(0, 0, canvas.width, canvas.height);
+      const barWidth = (canvas.width / bars) * 0.75;
+      const gap = (canvas.width / bars) * 0.25;
 
-      const barWidth = (canvas.width / bufferLength) * 1.6;
-      let x = 0;
+      for (let i = 0; i < bars; i++) {
+        if (isPlaying) {
+          // Dynamic lively rhythmic pulse
+          const target = Math.random() * (canvas.height * 0.85) + 6;
+          values[i] += (target - values[i]) * 0.35;
+        } else {
+          values[i] = Math.max(3, values[i] * 0.9);
+        }
 
-      for (let i = 0; i < bufferLength; i++) {
-        // Boost responsiveness
-        const rawVal = dataArray[i] || 0;
-        const val = isPlaying && rawVal === 0 ? Math.random() * 120 + 40 : rawVal;
-        const barHeight = (val / 255) * canvas.height * 0.85;
+        const barHeight = values[i];
+        const x = i * (barWidth + gap);
 
         const grad = ctx.createLinearGradient(0, canvas.height, 0, 0);
         grad.addColorStop(0, '#f43f5e');
@@ -77,9 +94,7 @@ export const CassettePlayer: React.FC<CassettePlayerProps> = ({ onBack }) => {
         grad.addColorStop(1, '#38bdf8');
 
         ctx.fillStyle = grad;
-        ctx.fillRect(x, canvas.height - barHeight, barWidth - 2, barHeight);
-
-        x += barWidth + 1;
+        ctx.fillRect(x, canvas.height - barHeight, barWidth, barHeight);
       }
     };
 
@@ -92,65 +107,33 @@ export const CassettePlayer: React.FC<CassettePlayerProps> = ({ onBack }) => {
 
   // Handle Play
   const handlePlayTrack = () => {
-    audioSynth.playCassetteClick('press');
-    setIsPlaying(true);
-
-    if (currentTrack.audioUrl) {
-      audioSynth.playRealSong(
-        currentTrack.audioUrl,
-        currentTrack.id,
-        (currentSec, durSec) => {
-          setPlaybackTime(currentSec);
-          if (durSec && !isNaN(durSec)) setTrackDuration(durSec);
-        },
-        () => {
-          // Track ended, go to next
-          handleNextTrack();
-        },
-        () => {
-          // Fallback to synth if stream blocked
-          const notesSeq = (currentTrack as any).melody || [];
-          audioSynth.playSongSequence(notesSeq, currentTrack.bpm, (sec) => setPlaybackTime(sec));
-        }
-      );
-    } else {
-      const notesSeq = (currentTrack as any).melody || [];
-      audioSynth.playSongSequence(notesSeq, currentTrack.bpm, (sec) => setPlaybackTime(sec));
-    }
+    audioSynth.playRealSong(
+      currentTrack.audioUrl,
+      currentTrack.id,
+      currentTrack.title,
+      undefined,
+      () => handleNextTrack()
+    );
   };
 
   const handlePauseTrack = () => {
-    audioSynth.playCassetteClick('release');
     audioSynth.pauseAudio();
-    setIsPlaying(false);
   };
 
   const handleStopTrack = () => {
-    audioSynth.playCassetteClick('release');
     audioSynth.stopSong();
-    setIsPlaying(false);
-    setPlaybackTime(0);
   };
 
   const handleSelectTrack = (index: number) => {
-    handleStopTrack();
     setCurrentTrackIndex(index);
-    setTimeout(() => {
-      audioSynth.playCassetteClick('press');
-      setIsPlaying(true);
-      const selected = tracks[index];
-      if (selected.audioUrl) {
-        audioSynth.playRealSong(
-          selected.audioUrl,
-          selected.id,
-          (cur, dur) => {
-            setPlaybackTime(cur);
-            if (dur && !isNaN(dur)) setTrackDuration(dur);
-          },
-          () => handleNextTrack()
-        );
-      }
-    }, 100);
+    const selected = tracks[index];
+    audioSynth.playRealSong(
+      selected.audioUrl,
+      selected.id,
+      selected.title,
+      undefined,
+      () => handleNextTrack()
+    );
   };
 
   const handleNextTrack = () => {
@@ -168,16 +151,14 @@ export const CassettePlayer: React.FC<CassettePlayerProps> = ({ onBack }) => {
     audioSynth.setPlaybackSpeed(newSpeed);
   };
 
-  const handleLofiToggle = () => {
-    audioSynth.playKissPop();
-    const next = !lofiEnabled;
-    setLofiEnabled(next);
-    audioSynth.setLofiMode(next);
-  };
-
   const handleVolumeChange = (newVol: number) => {
     setVolume(newVol);
     audioSynth.setMasterVolume(newVol);
+  };
+
+  const handleSeek = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const newTime = parseFloat(e.target.value);
+    audioSynth.seek(newTime);
   };
 
   // Active lyric calculation
@@ -194,10 +175,7 @@ export const CassettePlayer: React.FC<CassettePlayerProps> = ({ onBack }) => {
       {/* Top Navigation */}
       <div className="flex flex-wrap items-center justify-between gap-4 mb-8">
         <button
-          onClick={() => {
-            handleStopTrack();
-            onBack();
-          }}
+          onClick={onBack}
           className="px-4 py-2 rounded-xl bg-espresso-900 border border-espresso-700 text-pink-300 hover:text-white hover:border-pink-500 transition-all font-mono text-xs flex items-center gap-1.5"
         >
           ← Back to Universe Hub
@@ -206,7 +184,7 @@ export const CassettePlayer: React.FC<CassettePlayerProps> = ({ onBack }) => {
         <div className="flex items-center gap-3">
           <div className="px-3.5 py-1.5 rounded-xl bg-espresso-900/90 border border-espresso-800 text-xs font-mono text-pink-300 flex items-center gap-2">
             <Radio className="w-4 h-4 text-pink-400" />
-            <span>FM Stereo 104.9 • Sabrina Radio</span>
+            <span>FM Stereo 104.9 • Sabrina Radio Live Audio</span>
           </div>
         </div>
       </div>
@@ -219,7 +197,7 @@ export const CassettePlayer: React.FC<CassettePlayerProps> = ({ onBack }) => {
             {/* Top Boombox Metal Plate */}
             <div className="flex items-center justify-between border-b-2 border-espresso-800/80 pb-4">
               <div className="flex items-center gap-2">
-                <div className="w-3 h-3 rounded-full bg-rose-500 animate-pulse" />
+                <div className={`w-3 h-3 rounded-full ${isPlaying ? 'bg-rose-500 animate-pulse' : 'bg-stone-600'}`} />
                 <span className="text-xs font-mono font-bold tracking-widest text-amber-300 uppercase">
                   SABRINA-MATIC 3000 • STEREO CASSETTE DECK
                 </span>
@@ -298,8 +276,21 @@ export const CassettePlayer: React.FC<CassettePlayerProps> = ({ onBack }) => {
                   </div>
                 </div>
 
-                {/* Cassette Bottom Trapezoid Cutout */}
-                <div className="mt-4 flex items-center justify-between text-[10px] font-mono text-white/70 px-2">
+                {/* Scrubber Bar */}
+                <div className="mt-4 px-2">
+                  <input
+                    type="range"
+                    min="0"
+                    max={trackDuration || 30}
+                    step="0.1"
+                    value={playbackTime}
+                    onChange={handleSeek}
+                    className="w-full accent-pink-500 cursor-pointer h-1.5 bg-stone-900 rounded-lg"
+                  />
+                </div>
+
+                {/* Cassette Bottom Cutout */}
+                <div className="mt-2 flex items-center justify-between text-[10px] font-mono text-white/70 px-2">
                   <span>STEREO • CrO2</span>
                   <span>TYPE II CASSETTE</span>
                   <span>90 MIN</span>
@@ -310,8 +301,8 @@ export const CassettePlayer: React.FC<CassettePlayerProps> = ({ onBack }) => {
             {/* Real Audio Visualizer Oscilloscope */}
             <div className="p-3.5 rounded-2xl bg-black/60 border border-espresso-800 flex items-center justify-between gap-4">
               <div className="text-xs font-mono text-espresso-400">
-                <span className="text-pink-400 font-bold block">SPECTRUM ANALYZER</span>
-                <span>FFT 64 Real-Time</span>
+                <span className="text-pink-400 font-bold block">AUDIO SPECTRUM</span>
+                <span>Active Frequency Visualizer</span>
               </div>
               <canvas
                 ref={visualizerCanvasRef}
@@ -322,7 +313,7 @@ export const CassettePlayer: React.FC<CassettePlayerProps> = ({ onBack }) => {
             </div>
 
             {/* Physical Boombox Piano Key Controls */}
-            <div className="grid grid-cols-5 gap-2 sm:gap-3 pt-2">
+            <div className="grid grid-cols-4 gap-2 sm:gap-3 pt-2">
               <button
                 onClick={handlePrevTrack}
                 className="py-3 px-2 rounded-xl bg-[#2e1910] hover:bg-espresso-800 border-b-4 border-black text-espresso-200 active:translate-y-1 active:border-b-0 font-mono text-xs flex flex-col items-center justify-center transition-all shadow-md"
@@ -358,25 +349,13 @@ export const CassettePlayer: React.FC<CassettePlayerProps> = ({ onBack }) => {
                 <FastForward className="w-4 h-4 mb-1" />
                 <span>NEXT</span>
               </button>
-
-              <button
-                onClick={handleLofiToggle}
-                className={`py-3 px-2 rounded-xl border-b-4 border-black font-mono text-xs flex flex-col items-center justify-center transition-all shadow-md active:translate-y-1 active:border-b-0 ${
-                  lofiEnabled
-                    ? 'bg-amber-600 text-white shadow-glow-pink'
-                    : 'bg-[#2e1910] hover:bg-espresso-800 text-espresso-300'
-                }`}
-              >
-                <Sliders className="w-4 h-4 mb-1" />
-                <span>LO-FI</span>
-              </button>
             </div>
 
             {/* Tape Controls: Speed Slider & Volume */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2 border-t border-espresso-800 text-xs font-mono text-espresso-300">
               <div className="p-3 rounded-2xl bg-espresso-950/80 border border-espresso-800 space-y-1.5">
                 <div className="flex justify-between text-[11px]">
-                  <span>TAPE SPEED (PITCH):</span>
+                  <span>PLAYBACK SPEED:</span>
                   <span className="text-amber-400 font-bold">{tapeSpeed.toFixed(2)}x</span>
                 </div>
                 <input
@@ -392,7 +371,7 @@ export const CassettePlayer: React.FC<CassettePlayerProps> = ({ onBack }) => {
 
               <div className="p-3 rounded-2xl bg-espresso-950/80 border border-espresso-800 space-y-1.5">
                 <div className="flex justify-between text-[11px]">
-                  <span>OUTPUT GAIN:</span>
+                  <span>VOLUME:</span>
                   <span className="text-pink-400 font-bold">{Math.round(volume * 100)}%</span>
                 </div>
                 <input
@@ -446,8 +425,8 @@ export const CassettePlayer: React.FC<CassettePlayerProps> = ({ onBack }) => {
           {/* Cassette Tape Tracklist */}
           <div className="rounded-3xl bg-[#1b0d07] border border-espresso-800 p-6 shadow-xl space-y-3">
             <div className="flex items-center justify-between mb-2">
-              <h4 className="text-sm font-serif font-bold text-white">Cassette Album Tracklist</h4>
-              <span className="text-xs font-mono text-espresso-400">{tracks.length} Tracks</span>
+              <h4 className="text-sm font-serif font-bold text-white">Full Song Tracklist ({tracks.length})</h4>
+              <span className="text-xs font-mono text-amber-300 font-bold">Click to Play 🎧</span>
             </div>
 
             <div className="space-y-2 max-h-[280px] overflow-y-auto pr-1">
@@ -470,7 +449,7 @@ export const CassettePlayer: React.FC<CassettePlayerProps> = ({ onBack }) => {
                         {track.title}
                         {track.album === "Man's Best Friend" && (
                           <span className="text-[9px] font-mono px-1.5 py-0.2 rounded bg-amber-500/20 text-amber-300 border border-amber-500/30">
-                            NEW
+                            MBF
                           </span>
                         )}
                       </div>
@@ -478,9 +457,14 @@ export const CassettePlayer: React.FC<CassettePlayerProps> = ({ onBack }) => {
                     </div>
                   </div>
 
-                  <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-espresso-900 text-espresso-300">
-                    {track.bpm} BPM
-                  </span>
+                  <div className="flex items-center gap-2">
+                    {currentTrackIndex === idx && isPlaying && (
+                      <span className="text-xs text-pink-400 animate-bounce">▶</span>
+                    )}
+                    <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-espresso-900 text-espresso-300">
+                      {track.bpm} BPM
+                    </span>
+                  </div>
                 </div>
               ))}
             </div>

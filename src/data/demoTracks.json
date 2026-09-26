@@ -9,7 +9,7 @@
       "trackNo": 1,
       "bpm": 124,
       "key": "G Major",
-      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4b/f1/95/4bf19543-9dd1-e6e7-7ee3-5d5138cbe22f/mzaf_16388487739502936932.plus.aac.p.m4a",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ba/bb/28/babb2892-4d44-1241-3876-9d0f47453890/mzaf_16807263713205963704.plus.aac.p.m4a",
       "cassetteTheme": "butter",
       "colorGradient": "from-amber-500 via-yellow-600 to-stone-950",
       "accentColor": "#fcd34d",
@@ -21,13 +21,6 @@
         { "time": 10.0, "line": "Little manchild, get off your knees! 🍼" },
         { "time": 14.0, "line": "I'm not your mother, baby, I'm the prize." },
         { "time": 18.2, "line": "Dry those crocodile manchild eyes! 💋" }
-      ],
-      "melody": [
-        { "note": 392.00, "time": 0.0, "dur": 0.5, "inst": "rhodes" },
-        { "note": 493.88, "time": 0.5, "dur": 0.5, "inst": "rhodes" },
-        { "note": 587.33, "time": 1.0, "dur": 0.8, "inst": "lead" },
-        { "note": 493.88, "time": 2.0, "dur": 0.6, "inst": "synth" },
-        { "note": 659.25, "time": 3.0, "dur": 1.2, "inst": "lead" }
       ]
     },
     {
@@ -39,7 +32,7 @@
       "trackNo": 2,
       "bpm": 108,
       "key": "F Major",
-      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/d5/d3/18/d5d3184b-0125-baae-51fa-71a3512e0325/mzaf_13508496411516086883.plus.aac.p.m4a",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a9/ce/3f/a9ce3f94-3fb3-ed69-a004-39f5ae1fe269/mzaf_11194474660671330263.plus.aac.p.m4a",
       "cassetteTheme": "skycream",
       "colorGradient": "from-blue-700 via-indigo-900 to-stone-950",
       "accentColor": "#60a5fa",
@@ -49,11 +42,6 @@
         { "time": 3.4, "line": "Bottled them up till the sky turned blue" },
         { "time": 7.0, "line": "Now I'm washing my hands of the things you do" },
         { "time": 11.2, "line": "Look at my tears... they look good on you! ✨" }
-      ],
-      "melody": [
-        { "note": 349.23, "time": 0.0, "dur": 0.6, "inst": "rhodes" },
-        { "note": 440.00, "time": 0.6, "dur": 0.6, "inst": "rhodes" },
-        { "note": 523.25, "time": 1.2, "dur": 1.0, "inst": "lead" }
       ]
     },
     {
@@ -65,7 +53,7 @@
       "trackNo": 3,
       "bpm": 116,
       "key": "Bb Major",
-      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/a5/d8/78/a5d8787f-94ad-9819-335b-1798ce04a3ad/mzaf_12891969698715874246.plus.aac.p.m4a",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0d/97/ee/0d97ee6b-2f1d-994e-d713-0b9387b2d7a4/mzaf_7514866886031861775.plus.aac.p.m4a",
       "cassetteTheme": "blush",
       "colorGradient": "from-purple-700 via-pink-900 to-stone-950",
       "accentColor": "#e879f9",
@@ -75,11 +63,6 @@
         { "time": 3.8, "line": "Testing how much devotion I can get" },
         { "time": 7.5, "line": "Told him look but don't touch just yet" },
         { "time": 11.0, "line": "Best believe he won't ever forget! 💋" }
-      ],
-      "melody": [
-        { "note": 466.16, "time": 0.0, "dur": 0.8, "inst": "rhodes" },
-        { "note": 587.33, "time": 0.8, "dur": 0.8, "inst": "synth" },
-        { "note": 698.46, "time": 1.6, "dur": 1.2, "inst": "lead" }
       ]
     },
     {
@@ -91,7 +74,7 @@
       "trackNo": 4,
       "bpm": 128,
       "key": "D Major",
-      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/55/65/59/55655977-9df0-e3eb-bc5f-8469cb6e60b1/mzaf_4725350323326127110.plus.aac.p.m4a",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fe/f8/fe/fef8fe24-5cde-fab0-9223-a21507e29f17/mzaf_6108326747889864913.plus.aac.p.m4a",
       "cassetteTheme": "butter",
       "colorGradient": "from-rose-500 via-amber-600 to-stone-950",
       "accentColor": "#fbbf24",
@@ -101,11 +84,6 @@
         { "time": 3.6, "line": "Saying words you don't even believe in" },
         { "time": 7.2, "line": "That's just your sugar talking, babe" },
         { "time": 10.8, "line": "And I'm already out the door leaving! 💅" }
-      ],
-      "melody": [
-        { "note": 293.66, "time": 0.0, "dur": 0.6, "inst": "synth" },
-        { "note": 369.99, "time": 0.6, "dur": 0.6, "inst": "synth" },
-        { "note": 440.00, "time": 1.2, "dur": 1.0, "inst": "lead" }
       ]
     },
     {
@@ -117,7 +95,7 @@
       "trackNo": 5,
       "bpm": 102,
       "key": "E Major",
-      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/1e/8c/d7/1e8cd7b2-8408-724a-b5ea-dfcf6cf2b64c/mzaf_17409247657989392261.plus.aac.p.m4a",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1d/69/71/1d69715e-719d-ba5d-2d31-ce97faf8082b/mzaf_10688822438776407713.plus.aac.p.m4a",
       "cassetteTheme": "blush",
       "colorGradient": "from-red-600 via-pink-900 to-stone-950",
       "accentColor": "#f43f5e",
@@ -127,11 +105,6 @@
         { "time": 3.8, "line": "Standing ten inches away from the front door" },
         { "time": 7.8, "line": "We almost broke up again last night..." },
         { "time": 11.5, "line": "Then you pulled me in and held me tight! 💔✨" }
-      ],
-      "melody": [
-        { "note": 329.63, "time": 0.0, "dur": 0.6, "inst": "rhodes" },
-        { "note": 415.30, "time": 0.6, "dur": 0.6, "inst": "rhodes" },
-        { "note": 493.88, "time": 1.2, "dur": 1.0, "inst": "lead" }
       ]
     },
     {
@@ -143,7 +116,7 @@
       "trackNo": 6,
       "bpm": 110,
       "key": "A Minor",
-      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/58/b7/c1/58b7c197-d86b-a25b-240e-7c51480f28a8/mzaf_12948624124976722286.plus.aac.p.m4a",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/27/f3/ed/27f3ede3-e861-f2b8-75c8-37b5ddc5f994/mzaf_1880457472016145525.plus.aac.p.m4a",
       "cassetteTheme": "espresso",
       "colorGradient": "from-stone-700 via-stone-900 to-black",
       "accentColor": "#a8a29e",
@@ -153,11 +126,6 @@
         { "time": 3.6, "line": "Hurt the ones you say you love the most" },
         { "time": 7.2, "line": "Walking through the world like nobody's son" },
         { "time": 11.0, "line": "Leaving before the morning comes! 🌫️" }
-      ],
-      "melody": [
-        { "note": 220.00, "time": 0.0, "dur": 0.6, "inst": "bass" },
-        { "note": 329.63, "time": 0.6, "dur": 0.6, "inst": "rhodes" },
-        { "note": 440.00, "time": 1.2, "dur": 1.0, "inst": "lead" }
       ]
     },
     {
@@ -169,7 +137,7 @@
       "trackNo": 7,
       "bpm": 126,
       "key": "C Major",
-      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/64/59/a7/6459a7f3-dca0-ce0f-b2a8-144795e69e46/mzaf_18439294520935515569.plus.aac.p.m4a",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cb/6d/82/cb6d8239-792d-d4de-266a-75515573132d/mzaf_4433732518753750182.plus.aac.p.m4a",
       "cassetteTheme": "blush",
       "colorGradient": "from-pink-600 via-rose-900 to-neutral-950",
       "accentColor": "#fb7185",
@@ -179,11 +147,6 @@
         { "time": 3.4, "line": "Talking loud in the club like an absolute jerk" },
         { "time": 7.0, "line": "With that attitude and that haircut upgrade..." },
         { "time": 10.5, "line": "Baby, you're never getting laid! 🚫👋" }
-      ],
-      "melody": [
-        { "note": 261.63, "time": 0.0, "dur": 0.4, "inst": "bass" },
-        { "note": 329.63, "time": 0.4, "dur": 0.4, "inst": "synth" },
-        { "note": 392.00, "time": 0.8, "dur": 0.8, "inst": "lead" }
       ]
     },
     {
@@ -195,7 +158,7 @@
       "trackNo": 8,
       "bpm": 115,
       "key": "C# Minor",
-      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/a5/d8/78/a5d8787f-94ad-9819-335b-1798ce04a3ad/mzaf_12891969698715874246.plus.aac.p.m4a",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/33/0d/bd/330dbd9f-1867-7da0-3608-a69e84ff0c2b/mzaf_12588135108426765352.plus.aac.p.m4a",
       "cassetteTheme": "blush",
       "colorGradient": "from-rose-500 via-purple-900 to-stone-950",
       "accentColor": "#f43f5e",
@@ -205,11 +168,6 @@
         { "time": 3.8, "line": "You used to play trombone and look like a clown" },
         { "time": 7.8, "line": "Now you walk in the room and turn heads around..." },
         { "time": 11.5, "line": "When did you get hot?! Tell me how! 🔥" }
-      ],
-      "melody": [
-        { "note": 277.18, "time": 0.0, "dur": 0.6, "inst": "bass" },
-        { "note": 369.99, "time": 0.6, "dur": 0.6, "inst": "synth" },
-        { "note": 440.00, "time": 1.2, "dur": 1.0, "inst": "lead" }
       ]
     },
     {
@@ -221,7 +179,7 @@
       "trackNo": 9,
       "bpm": 130,
       "key": "A Major",
-      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4b/f1/95/4bf19543-9dd1-e6e7-7ee3-5d5138cbe22f/mzaf_16388487739502936932.plus.aac.p.m4a",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4e/0f/01/4e0f01cd-d065-fa51-39c1-d6bfda474b13/mzaf_774890486697287454.plus.aac.p.m4a",
       "cassetteTheme": "espresso",
       "colorGradient": "from-amber-600 via-orange-800 to-stone-950",
       "accentColor": "#f97316",
@@ -231,11 +189,6 @@
         { "time": 3.5, "line": "Taking over the city out of control" },
         { "time": 7.0, "line": "Don't check on your ex, baby check on your glow" },
         { "time": 10.5, "line": "That's that go go juice, let's go! 🥤✨" }
-      ],
-      "melody": [
-        { "note": 440.00, "time": 0.0, "dur": 0.6, "inst": "synth" },
-        { "note": 554.37, "time": 0.6, "dur": 0.6, "inst": "synth" },
-        { "note": 659.25, "time": 1.2, "dur": 1.0, "inst": "lead" }
       ]
     },
     {
@@ -247,7 +200,7 @@
       "trackNo": 10,
       "bpm": 120,
       "key": "F# Minor",
-      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/64/59/a7/6459a7f3-dca0-ce0f-b2a8-144795e69e46/mzaf_18439294520935515569.plus.aac.p.m4a",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5e/78/06/5e7806ac-7046-33ea-6ac6-c70a07e30e6b/mzaf_8384425353361826830.plus.aac.p.m4a",
       "cassetteTheme": "blush",
       "colorGradient": "from-violet-800 via-fuchsia-900 to-stone-950",
       "accentColor": "#d946ef",
@@ -257,11 +210,6 @@
         { "time": 3.6, "line": "Better roll again, roll the dice" },
         { "time": 7.2, "line": "Don't worry... I'll make you worry" },
         { "time": 10.8, "line": "When I look at you twice! 👁️✨" }
-      ],
-      "melody": [
-        { "note": 369.99, "time": 0.0, "dur": 0.6, "inst": "synth" },
-        { "note": 440.00, "time": 0.6, "dur": 0.6, "inst": "synth" },
-        { "note": 554.37, "time": 1.2, "dur": 1.0, "inst": "lead" }
       ]
     },
     {
@@ -273,7 +221,7 @@
       "trackNo": 11,
       "bpm": 118,
       "key": "Ab Major",
-      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/58/b7/c1/58b7c197-d86b-a25b-240e-7c51480f28a8/mzaf_12948624124976722286.plus.aac.p.m4a",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fd/e4/b1/fde4b14a-41c8-11bd-1c65-037ab12516fa/mzaf_3384880528362252893.plus.aac.p.m4a",
       "cassetteTheme": "skycream",
       "colorGradient": "from-cyan-700 via-sky-900 to-stone-950",
       "accentColor": "#38bdf8",
@@ -283,11 +231,6 @@
         { "time": 3.8, "line": "Here is the bookshelf with all the books you took" },
         { "time": 7.8, "line": "Welcome to the house tour of what we used to be" },
         { "time": 11.6, "line": "Notice how the best part was me! 🏡💅" }
-      ],
-      "melody": [
-        { "note": 415.30, "time": 0.0, "dur": 0.6, "inst": "rhodes" },
-        { "note": 523.25, "time": 0.6, "dur": 0.6, "inst": "rhodes" },
-        { "note": 622.25, "time": 1.2, "dur": 1.0, "inst": "lead" }
       ]
     },
     {
@@ -299,7 +242,7 @@
       "trackNo": 12,
       "bpm": 96,
       "key": "Eb Major",
-      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/d5/d3/18/d5d3184b-0125-baae-51fa-71a3512e0325/mzaf_13508496411516086883.plus.aac.p.m4a",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/48/fa/6a/48fa6a11-4aae-d8eb-7533-d6f02eeb6899/mzaf_5548124491440123847.plus.aac.p.m4a",
       "cassetteTheme": "butter",
       "colorGradient": "from-amber-600 via-stone-800 to-black",
       "accentColor": "#fbbf24",
@@ -309,11 +252,6 @@
         { "time": 3.8, "line": "Just a song that you won't forget" },
         { "time": 7.6, "line": "Saying goodbye with a smile on my face" },
         { "time": 11.5, "line": "Leaving without a trace... goodbye! 🕊️✨" }
-      ],
-      "melody": [
-        { "note": 311.13, "time": 0.0, "dur": 0.8, "inst": "rhodes" },
-        { "note": 392.00, "time": 0.8, "dur": 0.8, "inst": "rhodes" },
-        { "note": 466.16, "time": 1.6, "dur": 1.2, "inst": "lead" }
       ]
     },
     {
@@ -325,7 +263,7 @@
       "trackNo": 13,
       "bpm": 122,
       "key": "D Major",
-      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/55/65/59/55655977-9df0-e3eb-bc5f-8469cb6e60b1/mzaf_4725350323326127110.plus.aac.p.m4a",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b9/e7/1d/b9e71d1b-14f2-a727-65a4-201b5a6918f7/mzaf_3989261174611012593.plus.aac.p.m4a",
       "cassetteTheme": "blush",
       "colorGradient": "from-pink-600 via-amber-700 to-stone-950",
       "accentColor": "#f43f5e",
@@ -335,11 +273,6 @@
         { "time": 3.6, "line": "All those bridges that you watched us burn" },
         { "time": 7.2, "line": "Now you're swimming back to yesterday" },
         { "time": 10.8, "line": "Life has such a funny way! 💫" }
-      ],
-      "melody": [
-        { "note": 293.66, "time": 0.0, "dur": 0.6, "inst": "rhodes" },
-        { "note": 369.99, "time": 0.6, "dur": 0.6, "inst": "synth" },
-        { "note": 440.00, "time": 1.2, "dur": 1.0, "inst": "lead" }
       ]
     },
     {
@@ -351,7 +284,7 @@
       "trackNo": 14,
       "bpm": 118,
       "key": "C Major",
-      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4b/f1/95/4bf19543-9dd1-e6e7-7ee3-5d5138cbe22f/mzaf_16388487739502936932.plus.aac.p.m4a",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/99/da/ff/99daffce-cdde-59c6-5ae0-7f922ce411a8/mzaf_5621292401829922816.plus.aac.p.m4a",
       "cassetteTheme": "espresso",
       "colorGradient": "from-amber-700 via-amber-900 to-stone-950",
       "accentColor": "#f59e0b",
@@ -365,12 +298,6 @@
         { "time": 16.0, "line": "Switch it up like Nintendo 🎮" },
         { "time": 19.2, "line": "Say you can't sleep, baby, I know" },
         { "time": 22.4, "line": "That's that me, espresso! ✨" }
-      ],
-      "melody": [
-        { "note": 523.25, "time": 0.0, "dur": 0.5, "inst": "rhodes" },
-        { "note": 659.25, "time": 0.5, "dur": 0.5, "inst": "rhodes" },
-        { "note": 783.99, "time": 1.0, "dur": 0.75, "inst": "rhodes" },
-        { "note": 1046.50, "time": 9.6, "dur": 1.2, "inst": "lead" }
       ]
     },
     {
@@ -382,7 +309,7 @@
       "trackNo": 15,
       "bpm": 133,
       "key": "A Major",
-      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/58/b7/c1/58b7c197-d86b-a25b-240e-7c51480f28a8/mzaf_12948624124976722286.plus.aac.p.m4a",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/97/06/58/97065890-7970-725a-1595-5045d4b110b1/mzaf_7668784443609724903.plus.aac.p.m4a",
       "cassetteTheme": "skycream",
       "colorGradient": "from-sky-600 via-blue-900 to-slate-950",
       "accentColor": "#38bdf8",
@@ -394,11 +321,6 @@
         { "time": 8.4, "line": "Don't bring me to tears when I just did my makeup so nice 💄" },
         { "time": 13.2, "line": "Heartbreak is one thing, my ego's another" },
         { "time": 17.0, "line": "I beg you, don't embarrass me, motherf***er! 💋" }
-      ],
-      "melody": [
-        { "note": 440.00, "time": 0.0, "dur": 0.8, "inst": "synth" },
-        { "note": 554.37, "time": 0.8, "dur": 0.8, "inst": "synth" },
-        { "note": 659.25, "time": 1.6, "dur": 1.0, "inst": "synth" }
       ]
     },
     {
@@ -410,7 +332,7 @@
       "trackNo": 16,
       "bpm": 112,
       "key": "G Major",
-      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/64/59/a7/6459a7f3-dca0-ce0f-b2a8-144795e69e46/mzaf_18439294520935515569.plus.aac.p.m4a",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/11/85/c7/1185c768-7622-2e0d-ca5d-1b6ab75bd455/mzaf_5692854726299576991.plus.aac.p.m4a",
       "cassetteTheme": "blush",
       "colorGradient": "from-rose-600 via-pink-900 to-neutral-950",
       "accentColor": "#f43f5e",
@@ -422,11 +344,69 @@
         { "time": 10.2, "line": "My body's where they're at" },
         { "time": 13.5, "line": "Now I hear you're back together and if that's true..." },
         { "time": 17.5, "line": "You'll just have to taste me when he's kissin' you! 🍒" }
-      ],
-      "melody": [
-        { "note": 392.00, "time": 0.0, "dur": 0.4, "inst": "bass" },
-        { "note": 493.88, "time": 0.5, "dur": 0.4, "inst": "synth" },
-        { "note": 587.33, "time": 1.0, "dur": 0.8, "inst": "lead" }
+      ]
+    },
+    {
+      "id": "bed-chem",
+      "title": "Bed Chem",
+      "album": "Short n' Sweet",
+      "year": "2024",
+      "side": "Bonus Hits",
+      "trackNo": 17,
+      "bpm": 118,
+      "key": "D Major",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f9/28/f3/f928f389-ed2f-234f-0a6f-693bdfb7e4dc/mzaf_5964840330233243381.plus.aac.p.m4a",
+      "cassetteTheme": "blush",
+      "colorGradient": "from-purple-600 via-pink-900 to-stone-950",
+      "accentColor": "#c084fc",
+      "vibe": "Slinky R&B pop about irresistible chemistry",
+      "lyrics": [
+        { "time": 0.0, "line": "Who's the cute boy with the white jacket?" },
+        { "time": 3.5, "line": "And the thick accent, talkin' like that?" },
+        { "time": 7.0, "line": "Now we're in the back, thinkin' 'bout that" },
+        { "time": 10.5, "line": "That good, good bed chem! ✨" }
+      ]
+    },
+    {
+      "id": "feather",
+      "title": "Feather",
+      "album": "emails i can't send fwd:",
+      "year": "2023",
+      "side": "Bonus Hits",
+      "trackNo": 18,
+      "bpm": 120,
+      "key": "G Major",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/07/4b/f1/074bf191-a02c-1d76-5d94-49256f99af6f/mzaf_7725821736642193910.plus.aac.p.m4a",
+      "cassetteTheme": "skycream",
+      "colorGradient": "from-emerald-600 via-teal-900 to-stone-950",
+      "accentColor": "#34d399",
+      "vibe": "Effortless disco pop anthem about freedom after heartbreak",
+      "lyrics": [
+        { "time": 0.0, "line": "I feel so much lighter like a feather with you off my mind 🪶" },
+        { "time": 4.0, "line": "Floatin' like a feather, yeah, it's so nice" },
+        { "time": 8.0, "line": "I got you blocked on everything, now that's a feather!" },
+        { "time": 12.0, "line": "Feather, feather... bye bye! 💅" }
+      ]
+    },
+    {
+      "id": "nonsense",
+      "title": "Nonsense",
+      "album": "emails i can't send",
+      "year": "2022",
+      "side": "Bonus Hits",
+      "trackNo": 19,
+      "bpm": 96,
+      "key": "A Major",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/94/d6/90/94d690ef-34d4-adcd-ba6b-be0750e3e852/mzaf_5398325893118966321.plus.aac.p.m4a",
+      "cassetteTheme": "butter",
+      "colorGradient": "from-pink-500 via-amber-600 to-stone-950",
+      "accentColor": "#fbbf24",
+      "vibe": "Bubbly R&B pop classic with the world-famous live outro rhyming tradition",
+      "lyrics": [
+        { "time": 0.0, "line": "Think I only want one number in my phone 📱" },
+        { "time": 3.8, "line": "I might change your contact to 'Don't Leave Me Alone'" },
+        { "time": 7.6, "line": "You make me talk nonsense, I'm tripping over my tongue!" },
+        { "time": 11.5, "line": "This song catchier than anything you've ever sung! 🎤" }
       ]
     }
   ]
